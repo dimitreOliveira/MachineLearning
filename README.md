@@ -28,3 +28,11 @@ This is a repository of the projects I worked on or currently working on. It is 
 * Spark used to process the data and Keras deep learning recurrent neural networks for time series regression.
 * **Keywords**(Python, Keras, Spark, Ml pipeline, Deep learning, RNN, Time series, Regression)
 <img src="Kaggle/Store%20Item%20Demand%20Forecasting%20Challenge/Store%20Item%20Demand%20Forecasting%20Challenge.jpg" width="600" height="200">
+
+ ---
+ 
+ #### House Prices: Advanced Regression Techniques
+* EDA, feature correlation, selection, engineering and visualization.
+* Tensorflow (core API) MLP Regression.
+* **Keywords**(Python, Tensorflow, R, Deep learning, MLP, EDA, Regression)
+<img src="Kaggle/House%20Prices%20Advanced%20Regression%20Techniques/House%20Prices%20Advanced%20Regression%20Techniques.png" width="600" height="200">
