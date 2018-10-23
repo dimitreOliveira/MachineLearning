@@ -1,0 +1,491 @@
+---
+title: "House Prices - Exploratory Data Analysis"
+output:
+  html_notebook: 
+    df_print: paged
+    fig:height: 4
+    fig_width: 6
+    theme: readable
+    toc: yes
+    toc_float: yes
+  editor_options:
+    chunk_output_type: inline
+---
+
+![](https://kaggle2.blob.core.windows.net/competitions/kaggle/5407/media/housesbanner.png)
+
+# Introduction
+
+## Deep Learning regression using Tensorflow for house prices prediction.
+
+### House Prices: Advanced Regression Techniques
+
+link for the kaggle competition: https://www.kaggle.com/c/house-prices-advanced-regression-techniques
+
+datasets: https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data
+
+repository with the code of this notebook and the tensorflow model: https://github.com/dimitreOliveira/HousePrices
+
+### Overview
+Ask a home buyer to describe their dream house, and they probably won't begin with the height of the basement ceiling or the proximity to an east-west railroad. But this playground competition's dataset proves that much more influences price negotiations than the number of bedrooms or a white-picket fence.
+
+With 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, this competition challenges you to predict the final price of each home.
+
+### Acknowledgments
+The Ames Housing dataset was compiled by Dean De Cock for use in data science education. It's an incredible alternative for data scientists looking for a modernized and expanded version of the often cited Boston Housing dataset. 
+
+# Exploratory Data Analysis
+
+```{r message=FALSE, include=FALSE}
+# set up
+library(dplyr)
+library(corrplot)
+library(ggplot2)
+options(scipen = 4)
+```
+
+```{r include=FALSE}
+# Loading data
+train <- read.csv("C:/Users/dimit/Desktop/Projetos/House Prices/data/train.csv", encoding="UTF-8")
+test <- read.csv('C:/Users/dimit/Desktop/Projetos/House Prices/data/test.csv', encoding="UTF-8")
+sample_submission <- read.csv('C:/Users/dimit/Desktop/Projetos/House Prices/data/sample_submission.csv', encoding="UTF-8")
+```
+
+### Null occurrence
+
+First let's take a look at how many null values we have on the train set.
+```{r echo=FALSE}
+missing_values <- sapply(train, function(x) sum(is.na(x)))
+null_count <- data.frame(Count = missing_values, Proportion = missing_values/nrow(train))
+null_count_gteZero <- null_count[null_count$Count > 0, ]
+null_count_gteZero[order(-null_count_gteZero$Count),]
+
+```
+
+As we can see we have lots of null values among all columns, to make our work easier we'll take them out for now and latter decide how to deal with them.
+
+```{r echo=FALSE}
+train_non_null <- select(train, -LotFrontage, -Alley, -MasVnrType, -MasVnrArea, -FireplaceQu, -GarageType, -GarageYrBlt, -GarageFinish, -GarageQual, -GarageCond, -BsmtQual, -BsmtCond, -BsmtExposure, -BsmtFinType1, -PoolQC, -Fence, -MiscFeature, -BsmtFinType1, -BsmtFinType2, -Electrical, -BsmtFinSF2, -BsmtUnfSF, -TotalBsmtSF, -BsmtFullBath, -BsmtHalfBath, -GarageCars, -GarageArea, -MSZoning, -Utilities, -Exterior1st, -Exterior2nd,  -BsmtFinSF1, -KitchenQual, -Functional, -SaleType)
+```
+
+### Label analysis
+
+Now we have our train set with no null values, so first let's take a look at how is our label feature ("SalePrice") distribution with a histogram and see the feature summary.
+```{r echo=FALSE, message=FALSE}
+ggplot(data=train_non_null, aes(train_non_null$SalePrice)) + 
+  geom_histogram(col="red", aes(fill=..count..)) +
+  scale_fill_gradient("Count", low="white", high="red") + 
+  labs(title = "Sale price histogram", x = "Sale price", y = "Count")
+
+summary(train_non_null$SalePrice)
+```
+
+We can see some interesting properties, our label has a peak around 160000, then it starts to decline and forms a long tail ending at 75500, as our summary shows.
+
+Next we will apply a logarithmic transformation to make our distribution looks more friendly, note that now it will look more normalized, and will lose it's right side long tail.
+```{r echo=FALSE, message=FALSE}
+train_non_null$SalePrice <- log1p(train_non_null$SalePrice)
+
+ggplot(data=train_non_null, aes(train_non_null$SalePrice)) + 
+  geom_histogram(col="red", aes(fill=..count..)) +
+  scale_fill_gradient("Count", low="white", high="red") + 
+  labs(title = "Sale price histogram", x = "Sale price", y = "Count")
+
+summary(train_non_null$SalePrice)
+```
+
+### Numerical features correlation
+
+After this let's start taking a look at how the remaining 26 numeric features correlate with the target "SalePrice" with a correlation matrix.
+
+```{r echo=FALSE}
+# Selecting only numeric features
+train_numeric <- select(train_non_null, -HouseStyle, -RoofMatl, -Heating, -Condition2, -RoofStyle, -ExterQual, -BldgType, -ExterCond, -Foundation, -HeatingQC, -CentralAir, -Condition1, -Neighborhood, -LandSlope, -LotConfig, -LandContour, -LotShape, -Street, -PavedDrive, -SaleCondition)
+```
+
+```{r echo=FALSE}
+# Store the overall correlation in 'correlations'
+correlations <- cor(train_numeric[,1:27])
+
+# Plot the correlation plot with 'correlations'
+corrplot(correlations, method="square", type = "upper")
+```
+
+### Categorical features correlation
+
+```{r echo=FALSE}
+# Selecting only categorical features and the label
+train_categoric <- select(train_non_null, HouseStyle, RoofMatl, Heating, Condition2, RoofStyle, ExterQual, BldgType,  ExterCond, Foundation, HeatingQC, CentralAir, Condition1, Neighborhood, LandSlope, LotConfig, LandContour, LotShape, Street, PavedDrive, SaleCondition, SalePrice)
+```
+
+And to our remaining 20 categorical features lets take a look at some box plots, to feel how our data behaves with "SalePrice".
+```{r echo=FALSE}
+ggplot(data=train_categoric, aes(y= SalePrice, x=HouseStyle, fill=HouseStyle) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of HouseStyle") +  
+  ylab("Sale Price") + 
+  xlab("HouseStyle")
+
+ggplot(data=train_categoric, aes(y= SalePrice, x=RoofMatl, fill=RoofMatl ) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of RoofMatl") +  
+  ylab("Sale Price") + 
+  xlab("RoofMatl")
+
+ggplot(data=train_categoric, aes(y= SalePrice, x=Heating, fill=Heating ) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of Heating") +  
+  ylab("Sale Price") + 
+  xlab("Heating")
+
+ggplot(data=train_categoric, aes(y= SalePrice, x=Condition2, fill=Condition2) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of Condition2") +  
+  ylab("Sale Price") + 
+  xlab("Condition2")
+
+ggplot(data=train_categoric, aes(y= SalePrice, x=RoofStyle, fill=RoofStyle) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of RoofStyle") +  
+  ylab("Sale Price") + 
+  xlab("RoofStyle")
+
+ggplot(data=train_categoric, aes(y= SalePrice, x=ExterQual, fill=ExterQual ) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of ExterQual") +  
+  ylab("Sale Price") + 
+  xlab("ExterQual")
+
+ggplot(data=train_categoric, aes(y= SalePrice, x=BldgType, fill=BldgType) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of BldgType") +  
+  ylab("Sale Price") + 
+  xlab("BldgType")
+
+ggplot(data=train_categoric, aes(y= SalePrice, x=ExterCond, fill=ExterCond) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of ExterCond") +  
+  ylab("Sale Price") + 
+  xlab("ExterCond")
+
+ggplot(data=train_categoric, aes(y= SalePrice, x=Foundation, fill=Foundation) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of Foundation") +  
+  ylab("Sale Price") + 
+  xlab("Foundation")
+
+ggplot(data=train_categoric, aes(y= SalePrice, x=HeatingQC, fill=HeatingQC) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of HeatingQC") +  
+  ylab("Sale Price") + 
+  xlab("HeatingQC")
+
+ggplot(data=train_categoric, aes(y= SalePrice, x=CentralAir, fill=CentralAir) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of CentralAir") +  
+  ylab("Sale Price") + 
+  xlab("CentralAir")
+
+ggplot(data=train_categoric, aes(y= SalePrice, x=Condition1, fill=Condition1) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of Condition1") +  
+  ylab("Sale Price") + 
+  xlab("Condition1")
+
+ggplot(data=train_categoric, aes(y= SalePrice, x=Neighborhood, fill=Neighborhood) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of Neighborhood") +  
+  ylab("Sale Price") + 
+  xlab("Neighborhood")
+
+ggplot(data=train_categoric, aes(y= SalePrice, x=LandSlope, fill=LandSlope) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of LandSlope") +  
+  ylab("Sale Price") + 
+  xlab("LandSlope")
+
+ggplot(data=train_categoric, aes(y= SalePrice, x=LotConfig, fill=LotConfig) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of LotConfig") +  
+  ylab("Sale Price") + 
+  xlab("LotConfig")
+
+ggplot(data=train_categoric, aes(y= SalePrice, x=LandContour, fill=LandContour) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of LandContour") +  
+  ylab("Sale Price") + 
+  xlab("LandContour")
+
+ggplot(data=train_categoric, aes(y= SalePrice, x=LotShape, fill=LotShape) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of LotShape") +  
+  ylab("Sale Price") + 
+  xlab("LotShape")
+
+ggplot(data=train_categoric, aes(y= SalePrice, x=Street, fill=Street) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of Street") +  
+  ylab("Sale Price") + 
+  xlab("Street")
+
+ggplot(data=train_categoric, aes(y= SalePrice, x=PavedDrive, fill=PavedDrive) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of PavedDrive") +  
+  ylab("Sale Price") + 
+  xlab("PavedDrive")
+
+ggplot(data=train_categoric, aes(y= SalePrice, x=SaleCondition, fill=SaleCondition) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of SaleCondition") +  
+  ylab("Sale Price") + 
+  xlab("SaleCondition")
+```
+
+As we can see we have lots of features that have really low correlation (numerical) or low variance (categorical) with with "SalePrice", features like this can disturb the training of our model, maybe latter we can feature engineer them to have more useful features, but for now we'll set them aside to have a simpler model.
+
+# Data pre-processing
+
+Now that we have more information about the features of our dataset, we can filter out all the unwanted features and work with a cleaner dataset.
+
+```{r echo=FALSE}
+# removing low correlation numerical
+train_clean <- select(train_non_null, -MSSubClass, -OverallCond, -LowQualFinSF, -BedroomAbvGr, -KitchenAbvGr, -EnclosedPorch, -X3SsnPorch, -ScreenPorch, -PoolArea, -MiscVal, -MoSold, -YrSold)
+# removing low variance categorical
+train_clean <- select(train_clean, -RoofStyle, -BldgType, -LandSlope, -LotConfig, -LandContour, -Heating, -ExterCond, -RoofMatl, -Condition1, -Condition2, -Street)
+```
+
+### Features behavior
+
+After filtering out the unwanted features let's take a look how our remaining features behaves with the target features and others with some scatter plot matrices.
+```{r echo=FALSE}
+pairs(~ LotArea + Neighborhood + OverallQual + OpenPorchSF + SalePrice, data = train_clean)
+pairs(~ YearBuilt + YearRemodAdd + ExterQual + Foundation + SalePrice, data = train_clean)
+pairs(~ HeatingQC + X1stFlrSF + X2ndFlrSF + FullBath + SalePrice, data = train_clean)
+pairs(~ HalfBath + WoodDeckSF + PavedDrive + Fireplaces + SalePrice, data = train_clean)
+pairs(~ TotRmsAbvGrd + GrLivArea + SaleCondition + SalePrice, data = train_clean)
+```
+
+### Data inference
+
+Now we can go back to our features with null values, the ones with high amount of missing data (more than 15%) we will drop, as the effort of inferring values would probably be too much and would still have chances of adding bias to the training, but the remaining we will try to infer the missing values.
+
+As the remaining missing features have low missing count, we will use a simple technique to infer data, we will replace the missing values with the median or mode of the feature.
+```{r include=FALSE}
+train_to_process_numerical <- select(train, BsmtFinSF2, BsmtUnfSF, TotalBsmtSF, BsmtFullBath, BsmtHalfBath, GarageCars, GarageArea, BsmtFinSF1)
+
+train_to_process_categorical <- select(train, MasVnrArea, GarageYrBlt, MasVnrType, GarageType, GarageFinish, GarageQual, GarageCond, BsmtQual, BsmtCond, BsmtExposure, BsmtFinType1, BsmtFinType1, BsmtFinType2, Electrical, MSZoning, Utilities, Exterior1st, Exterior2nd, KitchenQual, Functional, Fence, Alley, PoolQC, MiscFeature, SaleType)
+```
+
+```{r include=FALSE}
+Mode <- function(x) {
+  ux <- unique(x)
+  ux[which.max(tabulate(match(x, ux)))]
+}
+
+for(i in 1:ncol(train_to_process_numerical)){
+  train_to_process_numerical[is.na(train_to_process_numerical[,i]), i] <- mean(train_to_process_numerical[,i], na.rm = TRUE)
+}
+
+for(i in 1:ncol(train_to_process_categorical)){
+  train_to_process_categorical[is.na(train_to_process_categorical[,i]), i] <- Mode(train_to_process_categorical[,i])
+}
+```
+
+### Inferred data correlation
+
+Now let's take a look at how the date we just created behaves with the target feature the same way we did before.
+
+First the numerical features.
+```{r echo=FALSE}
+# add target feature to the set
+train_to_process_numerical <- cbind(train_to_process_numerical, select(train, SalePrice))
+
+# Store the overall correlation in 'correlations'
+correlations <- cor(train_to_process_numerical[,1:9])
+
+# Plot the correlation plot with 'correlations'
+corrplot(correlations, method="square", type = "upper")
+```
+
+Then the categorical features.
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+train_to_process_categorical <- cbind(train_to_process_categorical, select(train, SalePrice))
+
+ggplot(data=train_to_process_categorical, aes(y= SalePrice, x=MasVnrArea, fill=MasVnrArea) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of MasVnrArea") +  
+  ylab("Sale Price") + 
+  xlab("MasVnrArea")
+
+ggplot(data=train_to_process_categorical, aes(y= SalePrice, x=GarageYrBlt, fill=GarageYrBlt) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of GarageYrBlt") +  
+  ylab("Sale Price") + 
+  xlab("GarageYrBlt")
+
+ggplot(data=train_to_process_categorical, aes(y= SalePrice, x=MasVnrType, fill=MasVnrType) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of MasVnrType") +  
+  ylab("Sale Price") + 
+  xlab("MasVnrType")
+
+ggplot(data=train_to_process_categorical, aes(y= SalePrice, x=GarageType, fill=GarageType) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of GarageType") +  
+  ylab("Sale Price") + 
+  xlab("GarageType")
+
+ggplot(data=train_to_process_categorical, aes(y= SalePrice, x=GarageFinish, fill=GarageFinish) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of GarageFinish") +  
+  ylab("Sale Price") + 
+  xlab("GarageFinish")
+
+ggplot(data=train_to_process_categorical, aes(y= SalePrice, x=MasVnrType, fill=GarageQual) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of GarageQual") +  
+  ylab("Sale Price") + 
+  xlab("GarageQual")
+
+ggplot(data=train_to_process_categorical, aes(y= SalePrice, x=GarageCond, fill=GarageCond) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of GarageCond") +  
+  ylab("Sale Price") + 
+  xlab("GarageCond")
+
+ggplot(data=train_to_process_categorical, aes(y= SalePrice, x=BsmtQual, fill=BsmtQual) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of BsmtQual") +  
+  ylab("Sale Price") + 
+  xlab("BsmtQual")
+
+ggplot(data=train_to_process_categorical, aes(y= SalePrice, x=MasVnrType, fill=BsmtCond) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of BsmtCond") +  
+  ylab("Sale Price") + 
+  xlab("BsmtCond")
+
+ggplot(data=train_to_process_categorical, aes(y= SalePrice, x=MasVnrType, fill=BsmtExposure) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of BsmtExposure") +  
+  ylab("Sale Price") + 
+  xlab("BsmtExposure")
+
+ggplot(data=train_to_process_categorical, aes(y= SalePrice, x=BsmtFinType1, fill=BsmtFinType1) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of BsmtFinType1") +  
+  ylab("Sale Price") + 
+  xlab("BsmtFinType1")
+
+ggplot(data=train_to_process_categorical, aes(y= SalePrice, x=BsmtFinType1, fill=BsmtFinType2) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of BsmtFinType2") +  
+  ylab("Sale Price") + 
+  xlab("BsmtFinType2")
+
+ggplot(data=train_to_process_categorical, aes(y= SalePrice, x=Electrical, fill=Electrical) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of Electrical") +  
+  ylab("Sale Price") + 
+  xlab("Electrical")
+
+ggplot(data=train_to_process_categorical, aes(y= SalePrice, x=MSZoning, fill=MSZoning) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of MSZoning") +  
+  ylab("Sale Price") + 
+  xlab("MSZoning")
+
+ggplot(data=train_to_process_categorical, aes(y= SalePrice, x=Utilities, fill=Utilities) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of Utilities") +  
+  ylab("Sale Price") + 
+  xlab("Utilities")
+
+ggplot(data=train_to_process_categorical, aes(y= SalePrice, x=Exterior1st, fill=Exterior1st) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of Exterior1st") +  
+  ylab("Sale Price") + 
+  xlab("Exterior1st")
+
+ggplot(data=train_to_process_categorical, aes(y= SalePrice, x=Exterior2nd, fill=Exterior2nd) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of Exterior2nd") +  
+  ylab("Sale Price") + 
+  xlab("Exterior2nd")
+
+ggplot(data=train_to_process_categorical, aes(y= SalePrice, x=KitchenQual, fill=KitchenQual) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of KitchenQual") +  
+  ylab("Sale Price") + 
+  xlab("KitchenQual")
+
+ggplot(data=train_to_process_categorical, aes(y= SalePrice, x=Functional, fill=Functional) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of Functional") +  
+  ylab("Sale Price") + 
+  xlab("Functional")
+
+ggplot(data=train_to_process_categorical, aes(y= SalePrice, x=SaleType, fill=SaleType) ) + 
+  geom_boxplot() + 
+  ggtitle("Distribution of SaleType") +  
+  ylab("Sale Price") + 
+  xlab("SaleType")
+```
+
+As you can see we still have a number of irrelevant features, so we will also remove them.
+```{r include=FALSE}
+train_to_process <- cbind(select(train_to_process_categorical, -SalePrice), train_to_process_numerical)
+
+train_final <- cbind(select(train_to_process, -Alley, -BsmtFinType2, -Fence, -Functional, -Utilities, -PoolQC, -BsmtHalfBath, -BsmtFinSF2, -MiscFeature, -SalePrice), train_clean)
+```
+
+Then we will do the same process to our test set.
+```{r include=FALSE}
+test_non_null <- select(test, -LotFrontage, -Alley, -MasVnrType, -MasVnrArea, -FireplaceQu, -GarageType, -GarageYrBlt, -GarageFinish, -GarageQual, -GarageCond, -BsmtQual, -BsmtCond, -BsmtExposure, -BsmtFinType1, -PoolQC, -Fence, -MiscFeature, -BsmtFinType1, -BsmtFinType2, -Electrical, -BsmtFinSF2, -BsmtUnfSF, -TotalBsmtSF, -BsmtFullBath, -BsmtHalfBath, -GarageCars, -GarageArea, -MSZoning, -Utilities, -Exterior1st, -Exterior2nd,  -BsmtFinSF1, -KitchenQual, -Functional, -SaleType)
+
+test_clean <- select(test_non_null, -MSSubClass, -OverallCond, -LowQualFinSF, -BedroomAbvGr, -KitchenAbvGr, -EnclosedPorch, -X3SsnPorch, -ScreenPorch, -PoolArea, -MiscVal, -MoSold, -YrSold)
+test_clean <- select(test_clean, -RoofStyle, -BldgType, -LandSlope, -LotConfig, -LandContour, -Heating, -ExterCond, -RoofMatl, -Condition1, -Condition2, -Street)
+
+test_to_process_numerical <- select(test, BsmtFinSF2, BsmtUnfSF, TotalBsmtSF, BsmtFullBath, BsmtHalfBath, GarageCars, GarageArea, BsmtFinSF1)
+
+test_to_process_categorical <- select(test, MasVnrArea, GarageYrBlt, MasVnrType, GarageType, GarageFinish, GarageQual, GarageCond, BsmtQual, BsmtCond, BsmtExposure, BsmtFinType1, BsmtFinType1, BsmtFinType2, Electrical, MSZoning, Utilities, Exterior1st, Exterior2nd, KitchenQual, Functional, Fence, Alley, PoolQC, MiscFeature, SaleType)
+
+
+for(i in 1:ncol(test_to_process_numerical)){
+  test_to_process_numerical[is.na(test_to_process_numerical[,i]), i] <- mean(test_to_process_numerical[,i], na.rm = TRUE)
+}
+
+for(i in 1:ncol(test_to_process_categorical)){
+  test_to_process_categorical[is.na(test_to_process_categorical[,i]), i] <- Mode(test_to_process_categorical[,i])
+}
+
+test_to_process <- cbind(test_to_process_categorical, test_to_process_numerical)
+
+test_final <- cbind(select(test_to_process, -Alley, -BsmtFinType2, -Fence, -Functional, -Utilities, -PoolQC, -BsmtHalfBath, -BsmtFinSF2, -MiscFeature), test_clean)
+```
+
+### Export the data
+
+After all the data cleaning and processing we can write the resulting data frame into two csv files (train and test) and use it on our model.
+
+reminder the link with the tensorflow code is at: https://github.com/dimitreOliveira/HousePrices
+```{r include=FALSE}
+test_non_null <- select(test, -LotFrontage, -Alley, -MasVnrType, -MasVnrArea, -FireplaceQu, -GarageType, -GarageYrBlt, -GarageFinish, -GarageQual, -GarageCond, -BsmtQual, -BsmtCond, -BsmtExposure, -BsmtFinType1, -PoolQC, -Fence, -MiscFeature, -BsmtFinType1, -BsmtFinType2, -Electrical, -BsmtFinSF2, -BsmtUnfSF, -TotalBsmtSF, -BsmtFullBath, -BsmtHalfBath, -GarageCars, -GarageArea, -MSZoning, -Utilities, -Exterior1st, -Exterior2nd,  -BsmtFinSF1, -KitchenQual, -Functional, -SaleType)
+
+test_to_process_numerical <- select(test, BsmtFinSF2, BsmtUnfSF, TotalBsmtSF, BsmtFullBath, BsmtHalfBath, GarageCars, GarageArea, BsmtFinSF1)
+
+test_to_process_categorical <- select(test, MasVnrArea, GarageYrBlt, MasVnrType, GarageType, GarageFinish, GarageQual, GarageCond, BsmtQual, BsmtCond, BsmtExposure, BsmtFinType1, BsmtFinType1, BsmtFinType2, Electrical, MSZoning, Utilities, Exterior1st, Exterior2nd, KitchenQual, Functional, SaleType)
+
+for(i in 1:ncol(test_to_process_numerical)){
+  test_to_process_numerical[is.na(test_to_process_numerical[,i]), i] <- mean(test_to_process_numerical[,i], na.rm = TRUE)
+}
+
+for(i in 1:ncol(test_to_process_categorical)){
+  test_to_process_categorical[is.na(test_to_process_categorical[,i]), i] <- Mode(test_to_process_categorical[,i])
+}
+
+test_to_process <- cbind(test_to_process_categorical, test_to_process_numerical)
+
+write.csv(train_final, file = "C:/Users/dimit/Desktop/Projetos/House Prices/data/train_cleaned.csv")
+write.csv(test_final, file = "C:/Users/dimit/Desktop/Projetos/House Prices/data/test_cleaned.csv")
+```
