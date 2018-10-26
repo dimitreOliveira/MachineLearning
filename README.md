@@ -44,3 +44,11 @@ This is a repository of the projects I worked on or currently working on. It is 
 * Tensorflow (estimator API) MLP Regression (end-to-end tensorflow project).
 * **Keywords**(Python, Tensorflow, Keras, Deep learning, MLP, Embedding, Regression)
 <img src="Kaggle/New%20York%20City%20Taxi%20Fare%20Prediction/New%20York%20City%20Taxi%20Fare%20Prediction.jpg" width="600" height="200">
+
+ ---
+ 
+ #### Google Analytics Customer Revenue Prediction
+
+ ---
+ 
+ #### Quick, Draw! Doodle Recognition Challenge
