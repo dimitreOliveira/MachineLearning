@@ -48,7 +48,9 @@ This is a repository of the projects I worked on or currently working on. It is 
  ---
  
  #### Google Analytics Customer Revenue Prediction
+<img src="Kaggle/Google%20Analytics%20Customer%20Revenue%20Prediction/Google%20Analytics%20Customer%20Revenue%20Prediction.jpg" width="600" height="200">
 
  ---
  
  #### Quick, Draw! Doodle Recognition Challenge
+<img src="Kaggle/Quick%2C%20Draw!%20Doodle%20Recognition%20Challenge/Quick%2C%20Draw!%20Doodle%20Recognition%20Challenge.jpg" width="600" height="200">
