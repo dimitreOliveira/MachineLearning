@@ -48,9 +48,17 @@ This is a repository of the projects I worked on or currently working on. It is 
  ---
  
  #### Google Analytics Customer Revenue Prediction
+* EDA, feature engineering and selection, Keras deep learning revenue prediction.
+* EDA, feature engineering and selection, LGBM revenue prediction.
+* **Keywords**(Python, Keras, Deep learning, MLP, LGBM, EDA, Regression)
 <img src="Kaggle/Google%20Analytics%20Customer%20Revenue%20Prediction/Google%20Analytics%20Customer%20Revenue%20Prediction.jpg" width="600" height="200">
 
  ---
  
  #### Quick, Draw! Doodle Recognition Challenge
+* Keras deep learning CNN classification.
+* Clean and pre process large csv files.
+* Competition EDA.
+* Converting drawings to numpy arrays.
+* **Keywords**(Python, Keras, Deep learning, CNN, EDA, Classification)
 <img src="Kaggle/Quick%2C%20Draw!%20Doodle%20Recognition%20Challenge/Quick%2C%20Draw!%20Doodle%20Recognition%20Challenge.jpg" width="600" height="200">
