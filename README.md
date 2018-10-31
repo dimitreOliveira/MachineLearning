@@ -62,3 +62,9 @@ This is a repository of the projects I worked on or currently working on. It is 
 * Converting drawings to numpy arrays.
 * **Keywords**(Python, Keras, Deep learning, CNN, EDA, Classification)
 <img src="Kaggle/Quick%2C%20Draw!%20Doodle%20Recognition%20Challenge/Quick%2C%20Draw!%20Doodle%20Recognition%20Challenge.jpg" width="600" height="200">
+
+
+## Projects:
+
+ #### Quick, Draw! Doodle Recognition Challenge
+<img src="Courses/Advanced%20Machine%20Learning/How%20to%20Win%20a%20Data%20Science%20Competition%20Learn%20from%20Top%20Kagglers.jpg" width="600" height="200">
