@@ -67,4 +67,4 @@ This is a repository of the projects I worked on or currently working on. It is 
 ## Projects:
 
  #### Quick, Draw! Doodle Recognition Challenge
-<img src="Courses/Advanced%20Machine%20Learning/How%20to%20Win%20a%20Data%20Science%20Competition%20Learn%20from%20Top%20Kagglers.jpg" width="600" height="200">
+<img src="Courses/Advanced%20Machine%20Learning/How%20to%20Win%20a%20Data%20Science%20Competition%20Learn%20from%20Top%20Kagglers/How%20to%20Win%20a%20Data%20Science%20Competition%20Learn%20from%20Top%20Kagglers.jpg" width="600" height="200">
