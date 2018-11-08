@@ -16,7 +16,7 @@ There are a number of ways to validate **second level models (meta-models).** In
 
 **c) Meta KFold scheme with OOF meta-features**
 
-1. Obtain OOF predictions train_meta and test metafeatures test_meta using **b.1** and** b.2.**
+1. Obtain OOF predictions train_meta and test metafeatures test_meta using **b.1** and **b.2.**
 2. Use KFold scheme on train_meta to validate hyperparameters for **meta-model.** A common practice to fix seed for this KFold to be the same as seed for KFold used to get OOF predictions.
 3. When the **meta-model** is validated, fit it to train_meta and predict for test_meta.
 
