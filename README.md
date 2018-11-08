@@ -15,7 +15,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 
  ---
  
- #### Titanic: Machine Learning from Disaster
+ #### Titanic: Machine Learning from Disaster [[Link for the project repository](https://github.com/dimitreOliveira/titanicDeepLearning)]
 * Naive Bayes classification [didactic code].
 * Tensorflow (core API) MLP classification.
 * XGBoost classification and machine learning insights (Permutation Importance, Partial Dependence Plots, SHAP Values) [didactic code].
@@ -24,14 +24,14 @@ This is a repository of the projects I worked on or currently working on. It is 
 
  ---
  
- #### Store Item Demand Forecasting Challenge
+ #### Store Item Demand Forecasting Challenge [[Link for the project repository](https://github.com/dimitreOliveira/StoreItemDemand)]
 * Spark used to process the data and Keras deep learning recurrent neural networks for time series regression.
 * **Keywords**(Python, Keras, Spark, Ml pipeline, Deep learning, RNN, Time series, Regression)
 <img src="Kaggle/Store%20Item%20Demand%20Forecasting%20Challenge/Store%20Item%20Demand%20Forecasting%20Challenge.jpg" width="600" height="200">
 
  ---
  
- #### House Prices: Advanced Regression Techniques
+ #### House Prices: Advanced Regression Techniques [[Link for the project repository](https://github.com/dimitreOliveira/HousePrices)]
 * EDA, feature correlation, selection, engineering and visualization.
 * Tensorflow (core API) MLP Regression.
 * **Keywords**(Python, Tensorflow, R, Deep learning, MLP, EDA, Regression)
@@ -39,7 +39,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 
  ---
  
- #### New York City Taxi Fare Prediction
+ #### New York City Taxi Fare Prediction [[Link for the project repository](https://github.com/dimitreOliveira/NewYorkCityTaxiFare)]
 * Keras MLP Regression.
 * Tensorflow (estimator API) MLP Regression (end-to-end tensorflow project).
 * **Keywords**(Python, Tensorflow, Keras, Deep learning, MLP, Embedding, Regression)
@@ -47,7 +47,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 
  ---
  
- #### Google Analytics Customer Revenue Prediction
+ #### Google Analytics Customer Revenue Prediction [[Link for the project repository](https://github.com/dimitreOliveira/GoogleAnalyticsCustomerRevenuePrediction)]
 * EDA, feature engineering and selection, Keras deep learning revenue prediction.
 * EDA, feature engineering and selection, LGBM revenue prediction.
 * **Keywords**(Python, Keras, Deep learning, MLP, LGBM, EDA, Regression)
