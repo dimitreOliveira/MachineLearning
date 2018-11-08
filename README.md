@@ -66,5 +66,5 @@ This is a repository of the projects I worked on or currently working on. It is 
 
 ## Courses:
 
- #### How to Win a Data Science Competition: Learn from Top Kagglers
+ #### How to Win a Data Science Competition: Learn from Top Kagglers [[Course home page](https://www.coursera.org/learn/competitive-data-science)]
 <img src="Courses/Advanced%20Machine%20Learning/How%20to%20Win%20a%20Data%20Science%20Competition%20Learn%20from%20Top%20Kagglers/How%20to%20Win%20a%20Data%20Science%20Competition%20Learn%20from%20Top%20Kagglers.jpg" width="300" height="200">
