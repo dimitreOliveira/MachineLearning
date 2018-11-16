@@ -2,7 +2,7 @@
  
 This is a repository of the projects I worked on or currently working on. It is updated regularly. I also have the Jupyter Notebook version of some of my Kaggle kernels here.
 
-###### [Kaggle profile](https://www.kaggle.com/dimitreoliveira) 
+###### [My Kaggle profile](https://www.kaggle.com/dimitreoliveira) 
  
 ## Projects:
  
@@ -15,7 +15,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 
  ---
  
- #### Titanic: Machine Learning from Disaster [[Link for the project repository](https://github.com/dimitreOliveira/titanicDeepLearning)]
+ #### Titanic: Machine Learning from Disaster [[Link for the complete project repository](https://github.com/dimitreOliveira/titanicDeepLearning)]
 * Naive Bayes classification [didactic code].
 * Tensorflow (core API) MLP classification.
 * XGBoost classification and machine learning insights (Permutation Importance, Partial Dependence Plots, SHAP Values) [didactic code].
@@ -24,14 +24,14 @@ This is a repository of the projects I worked on or currently working on. It is 
 
  ---
  
- #### Store Item Demand Forecasting Challenge [[Link for the project repository](https://github.com/dimitreOliveira/StoreItemDemand)]
+ #### Store Item Demand Forecasting Challenge [[Link for the complete project repository](https://github.com/dimitreOliveira/StoreItemDemand)]
 * Spark used to process the data and Keras deep learning recurrent neural networks for time series regression.
 * **Keywords**(Python, Keras, Spark, Ml pipeline, Deep learning, RNN, Time series, Regression)
 <img src="Kaggle/Store%20Item%20Demand%20Forecasting%20Challenge/Store%20Item%20Demand%20Forecasting%20Challenge.jpg" width="600" height="200">
 
  ---
  
- #### House Prices: Advanced Regression Techniques [[Link for the project repository](https://github.com/dimitreOliveira/HousePrices)]
+ #### House Prices: Advanced Regression Techniques [[Link for the complete project repository](https://github.com/dimitreOliveira/HousePrices)]
 * EDA, feature correlation, selection, engineering and visualization.
 * Tensorflow (core API) MLP Regression.
 * **Keywords**(Python, Tensorflow, R, Deep learning, MLP, EDA, Regression)
@@ -39,7 +39,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 
  ---
  
- #### New York City Taxi Fare Prediction [[Link for the project repository](https://github.com/dimitreOliveira/NewYorkCityTaxiFare)]
+ #### New York City Taxi Fare Prediction [[Link for the complete project repository](https://github.com/dimitreOliveira/NewYorkCityTaxiFare)]
 * Keras MLP Regression.
 * Tensorflow (estimator API) MLP Regression (end-to-end tensorflow project).
 * **Keywords**(Python, Tensorflow, Keras, Deep learning, MLP, Embedding, Regression)
@@ -47,7 +47,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 
  ---
  
- #### Google Analytics Customer Revenue Prediction [[Link for the project repository](https://github.com/dimitreOliveira/GoogleAnalyticsCustomerRevenuePrediction)]
+ #### Google Analytics Customer Revenue Prediction [[Link for the complete project repository](https://github.com/dimitreOliveira/GoogleAnalyticsCustomerRevenuePrediction)]
 * EDA, feature engineering and selection, Keras deep learning revenue prediction.
 * EDA, feature engineering and selection, LGBM revenue prediction.
 * **Keywords**(Python, Keras, Deep learning, MLP, LGBM, EDA, Regression)
@@ -67,4 +67,4 @@ This is a repository of the projects I worked on or currently working on. It is 
 ## Courses:
 
  #### How to Win a Data Science Competition: Learn from Top Kagglers [[Course home page](https://www.coursera.org/learn/competitive-data-science)]
-<img src="Courses/Advanced%20Machine%20Learning/How%20to%20Win%20a%20Data%20Science%20Competition%20Learn%20from%20Top%20Kagglers/How%20to%20Win%20a%20Data%20Science%20Competition%20Learn%20from%20Top%20Kagglers.jpg" width="300" height="200">
+<img src="Courses/Advanced%20Machine%20Learning/How%20to%20Win%20a%20Data%20Science%20Competition%20Learn%20from%20Top%20Kagglers/How%20to%20Win%20a%20Data%20Science%20Competition%20Learn%20from%20Top%20Kagglers.jpg" width="250" height="150">
