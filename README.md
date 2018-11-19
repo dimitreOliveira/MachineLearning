@@ -26,7 +26,7 @@ This is a repository of the projects I worked on or currently working on. It is 
  
  #### Store Item Demand Forecasting Challenge [[Link for the complete project repository](https://github.com/dimitreOliveira/StoreItemDemand)]
 * Spark used to process the data and Keras deep learning recurrent neural networks for time series regression.
-* **Keywords**(Python, Keras, Spark, Ml pipeline, Deep learning, RNN, Time series, Regression)
+* **Keywords**(Python, Keras, Spark, Ml pipeline, Deep learning, RNN, Time-series, Regression)
 <img src="Kaggle/Store%20Item%20Demand%20Forecasting%20Challenge/Store%20Item%20Demand%20Forecasting%20Challenge.jpg" width="600" height="200">
 
  ---
@@ -62,6 +62,13 @@ This is a repository of the projects I worked on or currently working on. It is 
 * Converting drawings to numpy arrays.
 * **Keywords**(Python, Keras, Deep learning, CNN, EDA, Classification)
 <img src="Kaggle/Quick%2C%20Draw!%20Doodle%20Recognition%20Challenge/Quick%2C%20Draw!%20Doodle%20Recognition%20Challenge.jpg" width="600" height="200">
+
+ ---
+ 
+ #### Predict Future Sales
+* Model stacking (catboost, random forest and knn) time-series forecasting regression.
+* **Keywords**(Python, Catboost, Random forest, KNN, Linear regression, Ensemble, Model stacking, Sklearn, Time-series, EDA, Regression)
+<img src="Kaggle/Predict%20Future%20Sales/Predict%20Future%20Sales.png" width="600" height="200">
 
 
 ## Courses:
