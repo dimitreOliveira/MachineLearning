@@ -75,3 +75,8 @@ This is a repository of the projects I worked on or currently working on. It is 
 
  #### How to Win a Data Science Competition: Learn from Top Kagglers [[Course home page](https://www.coursera.org/learn/competitive-data-science)]
 <img src="Courses/Advanced%20Machine%20Learning/How%20to%20Win%20a%20Data%20Science%20Competition%20Learn%20from%20Top%20Kagglers/How%20to%20Win%20a%20Data%20Science%20Competition%20Learn%20from%20Top%20Kagglers.jpg" width="250" height="150">
+
+ ---
+ 
+ #### Practical Reinforcement Learning [[Course home page](https://www.coursera.org/learn/practical-rl)]
+<img src="Courses/Advanced%20Machine%20Learning/Practical%20Reinforcement%20Learning/Practical%20Reinforcement%20Learning.jpg" width="250" height="150">
