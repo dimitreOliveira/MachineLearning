@@ -9,7 +9,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 ###  Kaggle kernels
 
 #### Digit Recognizer
-* Deep learning CNN for image classification.
+* Deep learning CNN for image classification. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Digit%20Recognizer/Simple%20Keras%20and%20deep%20learning%20digit%20recognizer.ipynb)
 * **Keywords**(Python, Keras, Deep learning, CNN, Image classification)
 <img src="Kaggle/Digit%20Recognizer/Digit%20Recognizer.png" width="600" height="200">
 
@@ -38,7 +38,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 * **Keywords**(Python, Tensorflow, R, Deep learning, MLP, EDA, Regression)
 <img src="Kaggle/House%20Prices%20Advanced%20Regression%20Techniques/House%20Prices%20Advanced%20Regression%20Techniques.png" width="600" height="200">
 
- ---
+ ---Updated readme
  
  #### New York City Taxi Fare Prediction [[Link for the complete project repository](https://github.com/dimitreOliveira/NewYorkCityTaxiFare)]
 * Keras MLP Regression.
