@@ -15,7 +15,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 
  ---
  
- #### Titanic: Machine Learning from Disaster [[Link for the complete project repository](https://github.com/dimitreOliveira/titanicDeepLearning)] [[link]]()
+ #### Titanic: Machine Learning from Disaster [[Link for the complete project repository](https://github.com/dimitreOliveira/titanicDeepLearning)]
 * Naive Bayes classification [didactic code]. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Titanic%20Machine%20Learning%20from%20Disaster/Naive%20Bayes%20Probabilistic%20ML%20-%20Titanic%20survival.ipynb)
 * Tensorflow (core API) MLP classification. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Titanic%20Machine%20Learning%20from%20Disaster/Titanic%20-%20Deep%20Learning%20aproach%20(tensorflow).ipynb)
 * XGBoost classification and machine learning insights (Permutation Importance, Partial Dependence Plots, SHAP Values) [didactic code]. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Titanic%20Machine%20Learning%20from%20Disaster/Titanic%20machine%20learning%20insights%20from%20disaster.ipynb)
