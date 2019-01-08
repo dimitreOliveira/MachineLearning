@@ -38,7 +38,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 * **Keywords**(Python, Tensorflow, R, Deep learning, MLP, EDA, Regression)
 <img src="Kaggle/House%20Prices%20Advanced%20Regression%20Techniques/House%20Prices%20Advanced%20Regression%20Techniques.png" width="600" height="200">
 
- ---Updated readme
+ ---
  
  #### New York City Taxi Fare Prediction [[Link for the complete project repository](https://github.com/dimitreOliveira/NewYorkCityTaxiFare)]
 * Keras MLP Regression.
@@ -76,17 +76,19 @@ This is a repository of the projects I worked on or currently working on. It is 
 
 ## Courses:
 
- #### How to Win a Data Science Competition: Learn from Top Kagglers [[Course home page](https://www.coursera.org/learn/competitive-data-science)]
-<img src="Courses/Advanced%20Machine%20Learning/How%20to%20Win%20a%20Data%20Science%20Competition%20Learn%20from%20Top%20Kagglers/How%20to%20Win%20a%20Data%20Science%20Competition%20Learn%20from%20Top%20Kagglers.jpg" width="250" height="150">
 
- ---
+ #### Advanced Machine Learning [[Specialization home page](https://www.coursera.org/specializations/aml)]
+<img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Courses/Advanced%20Machine%20Learning/Advanced%20Machine%20Learning.png" width="250" height="150">
+
+ * How to Win a Data Science Competition: Learn from Top Kagglers [[Course home page](https://www.coursera.org/learn/competitive-data-science)]
+<img src="Courses/Advanced%20Machine%20Learning/How%20to%20Win%20a%20Data%20Science%20Competition%20Learn%20from%20Top%20Kagglers/How%20to%20Win%20a%20Data%20Science%20Competition%20Learn%20from%20Top%20Kagglers.jpg" width="250" height="150">
  
- #### Practical Reinforcement Learning [[Course home page](https://www.coursera.org/learn/practical-rl)]
+ * Practical Reinforcement Learning [[Course home page](https://www.coursera.org/learn/practical-rl)]
 <img src="Courses/Advanced%20Machine%20Learning/Practical%20Reinforcement%20Learning/Practical%20Reinforcement%20Learning.jpg" width="250" height="150">
 
  ---
  
- #### Advanced Machine Learning with TensorFlow on Google Cloud Platform [[Course home page](https://www.coursera.org/specializations/advanced-machine-learning-tensorflow-gcp)]
- 1. End-to-End Machine Learning with TensorFlow on GCP.
- 2. Production Machine Learning Systems.
+ #### Advanced Machine Learning with TensorFlow on Google Cloud Platform [[Specialization home page](https://www.coursera.org/specializations/advanced-machine-learning-tensorflow-gcp)]
+ * End-to-End Machine Learning with TensorFlow on GCP.
+ * Production Machine Learning Systems.
 <img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Courses/Advanced%20Machine%20Learning%20with%20TensorFlow%20on%20Google%20Cloud%20Platform/Advanced%20Machine%20Learning%20with%20TensorFlow%20on%20Google%20Cloud%20Platform.jpg" width="250" height="150">
