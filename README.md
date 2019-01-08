@@ -26,7 +26,7 @@ This is a repository of the projects I worked on or currently working on. It is 
  
  #### Store Item Demand Forecasting Challenge [[Link for the complete project repository](https://github.com/dimitreOliveira/StoreItemDemand)]
 * Spark used to process the data and Keras deep learning recurrent neural networks for time series regression.
-* Different deep Learning approaches and how to prepare data for Time Series Forecasting.
+* MLP, CNN, LSTM, CNN-LSTM models and framing of time-series problem for forecasting regression.
 * **Keywords**(Python, Keras, Spark, Ml pipeline, Time-series preprocess, Deep learning, MLP, CNN, LSTM, CNN-LSTM, Time-series, Regression)
 <img src="Kaggle/Store%20Item%20Demand%20Forecasting%20Challenge/Store%20Item%20Demand%20Forecasting%20Challenge.jpg" width="600" height="200">
 
@@ -69,8 +69,7 @@ This is a repository of the projects I worked on or currently working on. It is 
  #### Predict Future Sales
 * Model stacking (catboost, random forest and knn) time-series forecasting regression.
 * MLP using features encoded by a LSTM autoencoder and LSTM model time-series forecasting regression.
-* MLP, CNN, LSTM, CNN-LSTM models and framing of time-series problem for forecasting regression.
-* **Keywords**(Python, Catboost, Random forest, KNN, Linear regression, Ensemble, Model stacking, MLP, CNN, LSTM, CNN-LSTM, Autoencoder, Sklearn, Time-series, EDA, Regression)
+* **Keywords**(Python, Catboost, Random forest, KNN, Linear regression, Ensemble, Model stacking, MLP, LSTM, Autoencoder, Sklearn, Time-series, EDA, Regression)
 <img src="Kaggle/Predict%20Future%20Sales/Predict%20Future%20Sales.png" width="600" height="200">
 
 
