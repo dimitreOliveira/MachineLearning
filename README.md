@@ -83,3 +83,10 @@ This is a repository of the projects I worked on or currently working on. It is 
  
  #### Practical Reinforcement Learning [[Course home page](https://www.coursera.org/learn/practical-rl)]
 <img src="Courses/Advanced%20Machine%20Learning/Practical%20Reinforcement%20Learning/Practical%20Reinforcement%20Learning.jpg" width="250" height="150">
+
+ ---
+ 
+ #### Advanced Machine Learning with TensorFlow on Google Cloud Platform [[Course home page](https://www.coursera.org/specializations/advanced-machine-learning-tensorflow-gcp)]
+ 1. End-to-End Machine Learning with TensorFlow on GCP.
+ 2. Production Machine Learning Systems.
+<img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Courses/Advanced%20Machine%20Learning%20with%20TensorFlow%20on%20Google%20Cloud%20Platform/Advanced%20Machine%20Learning%20with%20TensorFlow%20on%20Google%20Cloud%20Platform.jpg" width="250" height="150">
