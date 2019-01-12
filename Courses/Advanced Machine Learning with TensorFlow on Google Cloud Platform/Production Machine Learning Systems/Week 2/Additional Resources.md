@@ -1,0 +1,2 @@
+* Article: [KubeFlow on GCP](https://cloud.google.com/blog/products/gcp/simplifying-machine-learning-on-open-hybrid-clouds-with-kubeflow)
+* Article: [Cloud MLE Architecture Review](https://cloud.google.com/ml-engine/docs/tensorflow/technical-overview)
