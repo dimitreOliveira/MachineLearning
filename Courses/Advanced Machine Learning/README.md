@@ -1,3 +1,4 @@
+![](https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Courses/Advanced%20Machine%20Learning/Advanced%20Machine%20Learning.png)
 # [Advanced Machine Learning Specialization](https://www.coursera.org/specializations/aml)
 Deep Dive Into The Modern AI Techniques. You will teach computer to see, draw, read, talk, play games and solve industry problems.
 

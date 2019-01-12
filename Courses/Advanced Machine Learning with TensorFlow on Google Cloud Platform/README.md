@@ -1,3 +1,4 @@
+![](https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Courses/Advanced%20Machine%20Learning%20with%20TensorFlow%20on%20Google%20Cloud%20Platform/Advanced%20Machine%20Learning%20with%20TensorFlow%20on%20Google%20Cloud%20Platform.jpg)
 # [Advanced Machine Learning with TensorFlow on Google Cloud Platform Specialization](https://www.coursera.org/specializations/advanced-machine-learning-tensorflow-gcp)
 Learn Advanced Machine Learning with Google Cloud. Build production-ready machine learning models with TensorFlow on Google Cloud Platform.
 
