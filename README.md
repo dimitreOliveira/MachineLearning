@@ -25,8 +25,8 @@ This is a repository of the projects I worked on or currently working on. It is 
  ---
  
  #### Store Item Demand Forecasting Challenge [[Link for the complete project repository](https://github.com/dimitreOliveira/StoreItemDemand)]
-* Spark used to process the data and Keras deep learning recurrent neural networks for time series regression.
-* MLP, CNN, LSTM, CNN-LSTM models and framing of time-series problem for forecasting regression.
+* Spark used to process the data and Keras deep learning recurrent neural networks for time series regression. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Store%20Item%20Demand%20Forecasting%20Challenge/Spark%20and%20deep%20learning%20rnn%20(keras%20%26%20databricks).ipynb)
+* MLP, CNN, LSTM, CNN-LSTM models and framing of time-series problem for forecasting regression. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Store%20Item%20Demand%20Forecasting%20Challenge/Deep%20Learning%20for%20Time%20Series%20Forecasting.ipynb)
 * **Keywords**(Python, Keras, Spark, Ml pipeline, Time-series preprocess, Deep learning, MLP, CNN, LSTM, CNN-LSTM, Time-series, Regression)
 <img src="Kaggle/Store%20Item%20Demand%20Forecasting%20Challenge/Store%20Item%20Demand%20Forecasting%20Challenge.jpg" width="600" height="200">
 
