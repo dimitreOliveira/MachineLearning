@@ -8,6 +8,13 @@ This is a repository of the projects I worked on or currently working on. It is 
  
 ###  Kaggle kernels
 
+#### Microsoft Malware Prediction
+* EDA, data cleaning and feature visualization with LGB model classification.
+* **Keywords**(Python, LGBM, EDA, classification)
+<img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Kaggle/Microsoft%20Malware%20Prediction/Microsoft_logo.png" width="600" height="200">
+
+ ---
+
 #### Digit Recognizer
 * Deep learning CNN for image classification. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Digit%20Recognizer/Simple%20Keras%20and%20deep%20learning%20digit%20recognizer.ipynb)
 * **Keywords**(Python, Keras, Deep learning, CNN, Image classification)
