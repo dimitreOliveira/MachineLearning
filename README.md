@@ -9,7 +9,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 ###  Kaggle kernels
 
 #### Microsoft Malware Prediction
-* EDA, data cleaning and feature visualization with LGB model classification.
+* EDA, data cleaning and feature visualization with LGB model classification. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Microsoft%20Malware%20Prediction/Malware%20Detection%20-%20EDA%20and%20LGBM.ipynb)
 * **Keywords**(Python, LGBM, EDA, classification)
 <img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Kaggle/Microsoft%20Malware%20Prediction/Microsoft_logo.png" width="600" height="200">
 
