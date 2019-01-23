@@ -14,36 +14,12 @@ This is a repository of the projects I worked on or currently working on. It is 
 <img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Kaggle/Microsoft%20Malware%20Prediction/Microsoft_logo.png" width="600" height="200">
 
  ---
-
-#### Digit Recognizer
-* Deep learning CNN for image classification. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Digit%20Recognizer/Simple%20Keras%20and%20deep%20learning%20digit%20recognizer.ipynb)
-* **Keywords**(Python, Keras, Deep learning, CNN, Image classification)
-<img src="Kaggle/Digit%20Recognizer/Digit%20Recognizer.png" width="600" height="200">
-
- ---
  
- #### Titanic: Machine Learning from Disaster [[Link for the complete project repository](https://github.com/dimitreOliveira/titanicDeepLearning)]
-* Naive Bayes classification [didactic code]. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Titanic%20Machine%20Learning%20from%20Disaster/Naive%20Bayes%20Probabilistic%20ML%20-%20Titanic%20survival.ipynb)
-* Tensorflow (core API) MLP classification. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Titanic%20Machine%20Learning%20from%20Disaster/Titanic%20-%20Deep%20Learning%20aproach%20(tensorflow).ipynb)
-* XGBoost classification and machine learning insights (Permutation Importance, Partial Dependence Plots, SHAP Values) [didactic code]. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Titanic%20Machine%20Learning%20from%20Disaster/Titanic%20machine%20learning%20insights%20from%20disaster.ipynb)
-* **Keywords**(Python, Tensorflow, Sklearn, Deep learning, MLP, Naive Bayes, XGBoost , ML insights, Classification)
-<img src="Kaggle/Titanic%20Machine%20Learning%20from%20Disaster/Titanic%20Machine%20Learning%20from%20Disaster.jpg" width="600" height="200">
-
- ---
- 
- #### Store Item Demand Forecasting Challenge [[Link for the complete project repository](https://github.com/dimitreOliveira/StoreItemDemand)]
-* Spark used to process the data and Keras deep learning recurrent neural networks for time series regression. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Store%20Item%20Demand%20Forecasting%20Challenge/Spark%20and%20deep%20learning%20rnn%20(keras%20%26%20databricks).ipynb)
-* MLP, CNN, LSTM, CNN-LSTM models and framing of time-series problem for forecasting regression. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Store%20Item%20Demand%20Forecasting%20Challenge/Deep%20Learning%20for%20Time%20Series%20Forecasting.ipynb)
-* **Keywords**(Python, Keras, Spark, Ml pipeline, Time-series preprocess, Deep learning, MLP, CNN, LSTM, CNN-LSTM, Time-series, Regression)
-<img src="Kaggle/Store%20Item%20Demand%20Forecasting%20Challenge/Store%20Item%20Demand%20Forecasting%20Challenge.jpg" width="600" height="200">
-
- ---
- 
- #### House Prices: Advanced Regression Techniques [[Link for the complete project repository](https://github.com/dimitreOliveira/HousePrices)]
-* EDA, feature correlation, selection, engineering and visualization. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/House%20Prices%20Advanced%20Regression%20Techniques/HousePrices%20EDA.Rmd)
-* Tensorflow (core API) MLP Regression. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/House%20Prices%20Advanced%20Regression%20Techniques/House%20Prices%20-%20Deep%20Learning%20aproach%20(tensorflow).ipynb)
-* **Keywords**(Python, Tensorflow, R, Deep learning, MLP, EDA, Regression)
-<img src="Kaggle/House%20Prices%20Advanced%20Regression%20Techniques/House%20Prices%20Advanced%20Regression%20Techniques.png" width="600" height="200">
+ #### Google Analytics Customer Revenue Prediction [[Link for the complete project repository](https://github.com/dimitreOliveira/GoogleAnalyticsCustomerRevenuePrediction)]
+* EDA, feature engineering and selection, Keras deep learning revenue prediction.
+* EDA, feature engineering and selection, LGBM revenue prediction.
+* **Keywords**(Python, Keras, Deep learning, MLP, LGBM, EDA, Regression)
+<img src="Kaggle/Google%20Analytics%20Customer%20Revenue%20Prediction/Google%20Analytics%20Customer%20Revenue%20Prediction.jpg" width="600" height="200">
 
  ---
  
@@ -55,11 +31,28 @@ This is a repository of the projects I worked on or currently working on. It is 
 
  ---
  
- #### Google Analytics Customer Revenue Prediction [[Link for the complete project repository](https://github.com/dimitreOliveira/GoogleAnalyticsCustomerRevenuePrediction)]
-* EDA, feature engineering and selection, Keras deep learning revenue prediction.
-* EDA, feature engineering and selection, LGBM revenue prediction.
-* **Keywords**(Python, Keras, Deep learning, MLP, LGBM, EDA, Regression)
-<img src="Kaggle/Google%20Analytics%20Customer%20Revenue%20Prediction/Google%20Analytics%20Customer%20Revenue%20Prediction.jpg" width="600" height="200">
+ #### Predict Future Sales
+* Model stacking (catboost, random forest and knn) time-series forecasting regression.
+* MLP using features encoded by a LSTM autoencoder and LSTM model time-series forecasting regression.
+* **Keywords**(Python, Catboost, Random forest, KNN, Linear regression, Ensemble, Model stacking, MLP, LSTM, Autoencoder, Sklearn, Time-series, EDA, Regression)
+<img src="Kaggle/Predict%20Future%20Sales/Predict%20Future%20Sales.png" width="600" height="200">
+
+ ---
+ 
+ #### Store Item Demand Forecasting Challenge [[Link for the complete project repository](https://github.com/dimitreOliveira/StoreItemDemand)]
+* Spark used to process the data and Keras deep learning recurrent neural networks for time series regression. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Store%20Item%20Demand%20Forecasting%20Challenge/Spark%20and%20deep%20learning%20rnn%20(keras%20%26%20databricks).ipynb)
+* MLP, CNN, LSTM, CNN-LSTM models and framing of time-series problem for forecasting regression. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Store%20Item%20Demand%20Forecasting%20Challenge/Deep%20Learning%20for%20Time%20Series%20Forecasting.ipynb)
+* **Keywords**(Python, Keras, Spark, Ml pipeline, Time-series preprocess, Deep learning, MLP, CNN, LSTM, CNN-LSTM, Time-series, Regression)
+<img src="Kaggle/Store%20Item%20Demand%20Forecasting%20Challenge/Store%20Item%20Demand%20Forecasting%20Challenge.jpg" width="600" height="200">
+
+ ---
+ 
+ #### Titanic: Machine Learning from Disaster [[Link for the complete project repository](https://github.com/dimitreOliveira/titanicDeepLearning)]
+* Naive Bayes classification [didactic code]. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Titanic%20Machine%20Learning%20from%20Disaster/Naive%20Bayes%20Probabilistic%20ML%20-%20Titanic%20survival.ipynb)
+* Tensorflow (core API) MLP classification. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Titanic%20Machine%20Learning%20from%20Disaster/Titanic%20-%20Deep%20Learning%20aproach%20(tensorflow).ipynb)
+* XGBoost classification and machine learning insights (Permutation Importance, Partial Dependence Plots, SHAP Values) [didactic code]. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Titanic%20Machine%20Learning%20from%20Disaster/Titanic%20machine%20learning%20insights%20from%20disaster.ipynb)
+* **Keywords**(Python, Tensorflow, Sklearn, Deep learning, MLP, Naive Bayes, XGBoost , ML insights, Classification)
+<img src="Kaggle/Titanic%20Machine%20Learning%20from%20Disaster/Titanic%20Machine%20Learning%20from%20Disaster.jpg" width="600" height="200">
 
  ---
  
@@ -73,11 +66,18 @@ This is a repository of the projects I worked on or currently working on. It is 
 
  ---
  
- #### Predict Future Sales
-* Model stacking (catboost, random forest and knn) time-series forecasting regression.
-* MLP using features encoded by a LSTM autoencoder and LSTM model time-series forecasting regression.
-* **Keywords**(Python, Catboost, Random forest, KNN, Linear regression, Ensemble, Model stacking, MLP, LSTM, Autoencoder, Sklearn, Time-series, EDA, Regression)
-<img src="Kaggle/Predict%20Future%20Sales/Predict%20Future%20Sales.png" width="600" height="200">
+#### Digit Recognizer
+* Deep learning CNN for image classification. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Digit%20Recognizer/Simple%20Keras%20and%20deep%20learning%20digit%20recognizer.ipynb)
+* **Keywords**(Python, Keras, Deep learning, CNN, Image classification)
+<img src="Kaggle/Digit%20Recognizer/Digit%20Recognizer.png" width="600" height="200">
+
+ ---
+ 
+ #### House Prices: Advanced Regression Techniques [[Link for the complete project repository](https://github.com/dimitreOliveira/HousePrices)]
+* EDA, feature correlation, selection, engineering and visualization. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/House%20Prices%20Advanced%20Regression%20Techniques/HousePrices%20EDA.Rmd)
+* Tensorflow (core API) MLP Regression. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/House%20Prices%20Advanced%20Regression%20Techniques/House%20Prices%20-%20Deep%20Learning%20aproach%20(tensorflow).ipynb)
+* **Keywords**(Python, Tensorflow, R, Deep learning, MLP, EDA, Regression)
+<img src="Kaggle/House%20Prices%20Advanced%20Regression%20Techniques/House%20Prices%20Advanced%20Regression%20Techniques.png" width="600" height="200">
 
 
 ## Courses:
