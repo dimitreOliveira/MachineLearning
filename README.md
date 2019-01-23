@@ -40,8 +40,8 @@ This is a repository of the projects I worked on or currently working on. It is 
  ---
  
  #### House Prices: Advanced Regression Techniques [[Link for the complete project repository](https://github.com/dimitreOliveira/HousePrices)]
-* EDA, feature correlation, selection, engineering and visualization.
-* Tensorflow (core API) MLP Regression.
+* EDA, feature correlation, selection, engineering and visualization. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/House%20Prices%20Advanced%20Regression%20Techniques/HousePrices%20EDA.Rmd)
+* Tensorflow (core API) MLP Regression. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/House%20Prices%20Advanced%20Regression%20Techniques/House%20Prices%20-%20Deep%20Learning%20aproach%20(tensorflow).ipynb)
 * **Keywords**(Python, Tensorflow, R, Deep learning, MLP, EDA, Regression)
 <img src="Kaggle/House%20Prices%20Advanced%20Regression%20Techniques/House%20Prices%20Advanced%20Regression%20Techniques.png" width="600" height="200">
 
