@@ -11,7 +11,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 #### Microsoft Malware Prediction
 * EDA, data cleaning and feature visualization with LGB model classification. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Microsoft%20Malware%20Prediction/Malware%20Detection%20-%20EDA%20and%20LGBM.ipynb)
 * **Keywords**(Python, LGBM, EDA, classification)
-<img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Kaggle/Microsoft%20Malware%20Prediction/Microsoft_logo.png" width="600" height="200">
+<img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Kaggle/Microsoft%20Malware%20Prediction/Microsoft_logo.png" width="600" height="150">
 
  ---
  
@@ -19,7 +19,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 * EDA, feature engineering and selection, Keras deep learning revenue prediction.
 * EDA, feature engineering and selection, LGBM revenue prediction.
 * **Keywords**(Python, Keras, Deep learning, MLP, LGBM, EDA, Regression)
-<img src="Kaggle/Google%20Analytics%20Customer%20Revenue%20Prediction/Google%20Analytics%20Customer%20Revenue%20Prediction.jpg" width="600" height="200">
+<img src="Kaggle/Google%20Analytics%20Customer%20Revenue%20Prediction/Google%20Analytics%20Customer%20Revenue%20Prediction.jpg" width="600" height="150">
 
  ---
  
@@ -27,7 +27,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 * Keras MLP Regression.
 * Tensorflow (estimator API) MLP Regression (end-to-end tensorflow project).
 * **Keywords**(Python, Tensorflow, Keras, Deep learning, MLP, Embedding, Regression)
-<img src="Kaggle/New%20York%20City%20Taxi%20Fare%20Prediction/New%20York%20City%20Taxi%20Fare%20Prediction.jpg" width="600" height="200">
+<img src="Kaggle/New%20York%20City%20Taxi%20Fare%20Prediction/New%20York%20City%20Taxi%20Fare%20Prediction.jpg" width="600" height="150">
 
  ---
  
@@ -35,7 +35,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 * Model stacking (catboost, random forest and knn) time-series forecasting regression.
 * MLP using features encoded by a LSTM autoencoder and LSTM model time-series forecasting regression.
 * **Keywords**(Python, Catboost, Random forest, KNN, Linear regression, Ensemble, Model stacking, MLP, LSTM, Autoencoder, Sklearn, Time-series, EDA, Regression)
-<img src="Kaggle/Predict%20Future%20Sales/Predict%20Future%20Sales.png" width="600" height="200">
+<img src="Kaggle/Predict%20Future%20Sales/Predict%20Future%20Sales.png" width="600" height="150">
 
  ---
  
@@ -43,7 +43,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 * Spark used to process the data and Keras deep learning recurrent neural networks for time series regression. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Store%20Item%20Demand%20Forecasting%20Challenge/Spark%20and%20deep%20learning%20rnn%20(keras%20%26%20databricks).ipynb)
 * MLP, CNN, LSTM, CNN-LSTM models and framing of time-series problem for forecasting regression. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Store%20Item%20Demand%20Forecasting%20Challenge/Deep%20Learning%20for%20Time%20Series%20Forecasting.ipynb)
 * **Keywords**(Python, Keras, Spark, Ml pipeline, Time-series preprocess, Deep learning, MLP, CNN, LSTM, CNN-LSTM, Time-series, Regression)
-<img src="Kaggle/Store%20Item%20Demand%20Forecasting%20Challenge/Store%20Item%20Demand%20Forecasting%20Challenge.jpg" width="600" height="200">
+<img src="Kaggle/Store%20Item%20Demand%20Forecasting%20Challenge/Store%20Item%20Demand%20Forecasting%20Challenge.jpg" width="600" height="150">
 
  ---
  
@@ -52,7 +52,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 * Tensorflow (core API) MLP classification. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Titanic%20Machine%20Learning%20from%20Disaster/Titanic%20-%20Deep%20Learning%20aproach%20(tensorflow).ipynb)
 * XGBoost classification and machine learning insights (Permutation Importance, Partial Dependence Plots, SHAP Values) [didactic code]. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Titanic%20Machine%20Learning%20from%20Disaster/Titanic%20machine%20learning%20insights%20from%20disaster.ipynb)
 * **Keywords**(Python, Tensorflow, Sklearn, Deep learning, MLP, Naive Bayes, XGBoost , ML insights, Classification)
-<img src="Kaggle/Titanic%20Machine%20Learning%20from%20Disaster/Titanic%20Machine%20Learning%20from%20Disaster.jpg" width="600" height="200">
+<img src="Kaggle/Titanic%20Machine%20Learning%20from%20Disaster/Titanic%20Machine%20Learning%20from%20Disaster.jpg" width="600" height="150">
 
  ---
  
@@ -62,14 +62,14 @@ This is a repository of the projects I worked on or currently working on. It is 
 * Competition EDA.
 * Converting drawings to numpy arrays.
 * **Keywords**(Python, Keras, Deep learning, CNN, EDA, Classification)
-<img src="Kaggle/Quick%2C%20Draw!%20Doodle%20Recognition%20Challenge/Quick%2C%20Draw!%20Doodle%20Recognition%20Challenge.jpg" width="600" height="200">
+<img src="Kaggle/Quick%2C%20Draw!%20Doodle%20Recognition%20Challenge/Quick%2C%20Draw!%20Doodle%20Recognition%20Challenge.jpg" width="600" height="150">
 
  ---
  
 #### Digit Recognizer
 * Deep learning CNN for image classification. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Digit%20Recognizer/Simple%20Keras%20and%20deep%20learning%20digit%20recognizer.ipynb)
 * **Keywords**(Python, Keras, Deep learning, CNN, Image classification)
-<img src="Kaggle/Digit%20Recognizer/Digit%20Recognizer.png" width="600" height="200">
+<img src="Kaggle/Digit%20Recognizer/Digit%20Recognizer.png" width="600" height="150">
 
  ---
  
@@ -77,7 +77,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 * EDA, feature correlation, selection, engineering and visualization. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/House%20Prices%20Advanced%20Regression%20Techniques/HousePrices%20EDA.Rmd)
 * Tensorflow (core API) MLP Regression. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/House%20Prices%20Advanced%20Regression%20Techniques/House%20Prices%20-%20Deep%20Learning%20aproach%20(tensorflow).ipynb)
 * **Keywords**(Python, Tensorflow, R, Deep learning, MLP, EDA, Regression)
-<img src="Kaggle/House%20Prices%20Advanced%20Regression%20Techniques/House%20Prices%20Advanced%20Regression%20Techniques.png" width="600" height="200">
+<img src="Kaggle/House%20Prices%20Advanced%20Regression%20Techniques/House%20Prices%20Advanced%20Regression%20Techniques.png" width="600" height="150">
 
 
 ## Courses:
@@ -95,3 +95,8 @@ This is a repository of the projects I worked on or currently working on. It is 
  * Production Machine Learning Systems. [[Course home page](https://www.coursera.org/learn/gcp-production-ml-systems)]
  * Recommendation Systems with TensorFlow on GCP. [[Course home page](https://www.coursera.org/learn/recommendation-models-gcp)]
 <img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Courses/Advanced%20Machine%20Learning%20with%20TensorFlow%20on%20Google%20Cloud%20Platform/Advanced%20Machine%20Learning%20with%20TensorFlow%20on%20Google%20Cloud%20Platform.jpg" width="250" height="150">
+
+ ---
+ 
+ #### Data Lit | School of AI [[Course home page](https://www.theschool.ai/courses/data-lit/)]
+<img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Courses/Data%20Lit/Data%20lit.png" width="250" height="150">
