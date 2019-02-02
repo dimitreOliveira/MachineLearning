@@ -1,4 +1,5 @@
-![](https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Courses/Data%20Lit/Data%20lit.png)
+<img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Courses/Data%20Lit/Data%20lit.png" width="350" height="250">
+
 # [Data Lit](https://www.theschool.ai/courses/data-lit/)
 
 ---
