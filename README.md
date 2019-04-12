@@ -15,7 +15,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 
  ---
 
-#### Microsoft Malware Prediction
+#### Microsoft Malware Prediction [[Link for the complete project repository](https://github.com/dimitreOliveira/MicrosoftMalwarePrediction)]
 * EDA, data cleaning and feature visualization with LGB model classification part 1. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Microsoft%20Malware%20Prediction/Malware%20Detection%20-%20EDA%20and%20LGBM.ipynb)
 * EDA, data cleaning and feature visualization part 2. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Microsoft%20Malware%20Prediction/Malware%20Detection%20-%20Extended%20EDA.ipynb)
 * **Keywords**(Python, LGBM, EDA, classification)
