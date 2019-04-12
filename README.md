@@ -8,6 +8,13 @@ This is a repository of the projects I worked on or currently working on. It is 
  
 ###  Kaggle kernels
 
+#### iMet Collection 2019 - FGVC6
+* iMet Collection 2019 - EDA & Keras. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/iMet%20Collection%202019%20-%20FGVC6/iMet%20Collection%202019%20-%20EDA%20%26%20Keras.ipynb)
+* **Keywords**(Python, Deep Learning, CNN, Image, Multi-label classification)
+<img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Kaggle/iMet%20Collection%202019%20-%20FGVC6/iMet%20Collection%202019%20-%20FGVC6.png" width="600" height="150">
+
+ ---
+
 #### Microsoft Malware Prediction
 * EDA, data cleaning and feature visualization with LGB model classification part 1. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Microsoft%20Malware%20Prediction/Malware%20Detection%20-%20EDA%20and%20LGBM.ipynb)
 * EDA, data cleaning and feature visualization part 2. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Microsoft%20Malware%20Prediction/Malware%20Detection%20-%20Extended%20EDA.ipynb)
