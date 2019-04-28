@@ -8,7 +8,14 @@ This is a repository of the projects I worked on or currently working on. It is 
  
 ###  Kaggle kernels
 
-#### iMet Collection 2019 - FGVC6
+#### KaggleCareerCon2019 [[Link for the complete project repository](https://github.com/dimitreOliveira/KaggleCareerCon2019]
+* Deep Learning Helping Navigate Robots. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/KaggleCareerCon2019/Deep%20Learning%20Helping%20Navigate%20Robots.ipynb)
+* **Keywords**(Python, EDA, Deep Learning, MLP, Time-series, Multi-class classification)
+<img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Kaggle/KaggleCareerCon2019/CareerCon_logo.png" width="300" height="150">
+
+ ---
+
+#### iMet Collection 2019 - FGVC6 
 * iMet Collection 2019 - EDA & Keras. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/iMet%20Collection%202019%20-%20FGVC6/iMet%20Collection%202019%20-%20EDA%20%26%20Keras.ipynb)
 * **Keywords**(Python, Deep Learning, CNN, Image, Multi-label classification)
 <img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Kaggle/iMet%20Collection%202019%20-%20FGVC6/iMet%20Collection%202019%20-%20FGVC6.png" width="600" height="150">
