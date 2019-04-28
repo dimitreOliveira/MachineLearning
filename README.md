@@ -8,7 +8,7 @@ This is a repository of the projects I worked on or currently working on. It is 
  
 ###  Kaggle kernels
 
-#### KaggleCareerCon2019 [[Link for the complete project repository](https://github.com/dimitreOliveira/KaggleCareerCon2019]
+#### KaggleCareerCon2019 [[Link for the complete project repository](https://github.com/dimitreOliveira/KaggleCareerCon2019)
 * Deep Learning Helping Navigate Robots. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/KaggleCareerCon2019/Deep%20Learning%20Helping%20Navigate%20Robots.ipynb)
 * **Keywords**(Python, EDA, Deep Learning, MLP, Time-series, Multi-class classification)
 <img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Kaggle/KaggleCareerCon2019/CareerCon_logo.png" width="300" height="150">
