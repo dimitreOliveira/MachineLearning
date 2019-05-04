@@ -1,0 +1,3 @@
+Ok, now that you’ve seen me do it, why don’t you give it a try for yourself. You can download the workbook [here](https://github.com/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%202%20-%20Lesson%202%20-%20Notebook.ipynb) if you want to try it out for yourself. Or, if you prefer, you can execute it right now in Google Colaboratory [at this link.](https://colab.sandbox.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%202%20-%20Lesson%202%20-%20Notebook.ipynb)
+
+Now while this might seem very simple, you’ve actually gotten the basics for how neural networks work. As your applications get more complex, you’ll continue to use the same techniques. For now, let’s do a quick test with Multiple Choice Questions to see what you’ve learned.
