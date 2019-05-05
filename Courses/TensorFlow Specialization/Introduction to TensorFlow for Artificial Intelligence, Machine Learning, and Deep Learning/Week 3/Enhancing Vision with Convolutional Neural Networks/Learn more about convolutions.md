@@ -1,0 +1,3 @@
+You’ve seen how to add a convolutional 2d layer to the top of your neural network in the previous video. If you want to see more detail on how they worked, check out the playlist at [https://bit.ly/2UGa7uH](https://bit.ly/2UGa7uH).
+
+Now let’s take a look at adding the pooling, and finishing off the convolutions so you can try them out…

@@ -1,0 +1,3 @@
+To try this notebook for yourself, and play with some convolutions, [here’s the notebook](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%206%20-%20Lesson%203%20-%20Notebook.ipynb). Let us know if you come up with any interesting filters of your own!
+
+As before, spend a little time playing with this notebook. Try different filters, and research different filter types. There's some fun information about them here: https://lodev.org/cgtutor/filtering.html
