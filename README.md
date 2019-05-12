@@ -8,6 +8,13 @@ This is a repository of the projects I worked on or currently working on. It is 
  
 ###  Kaggle kernels
 
+#### Jigsaw Unintended Bias in Toxicity Classification
+* Toxicity Bias - extensive EDA and Bi LSTM. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Jigsaw%20Unintended%20Bias%20in%20Toxicity%20Classification/Toxicity%20Bias%20-%20extensive%20EDA%20and%20Bi%20LSTM.ipynb)
+* **Keywords**(Python, EDA, Deep Learning, Bidirectional GRU, Sequence, NLP, Classification)
+<img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Kaggle/Jigsaw%20Unintended%20Bias%20in%20Toxicity%20Classification/Jigsaw%20Unintended%20Bias%20in%20Toxicity%20Classification.png" width="600" height="150">
+
+ ---
+
 #### KaggleCareerCon2019 [[Link for the complete project repository](https://github.com/dimitreOliveira/KaggleCareerCon2019)
 * Deep Learning Helping Navigate Robots. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/KaggleCareerCon2019/Deep%20Learning%20Helping%20Navigate%20Robots.ipynb)
 * **Keywords**(Python, EDA, Deep Learning, MLP, Time-series, Multi-class classification)
@@ -17,7 +24,8 @@ This is a repository of the projects I worked on or currently working on. It is 
 
 #### iMet Collection 2019 - FGVC6 
 * iMet Collection 2019 - EDA & Keras. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/iMet%20Collection%202019%20-%20FGVC6/iMet%20Collection%202019%20-%20EDA%20%26%20Keras.ipynb)
-* **Keywords**(Python, Deep Learning, CNN, Image, Multi-label classification)
+* iMet - Keras pretrained model as feature extractor. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/iMet%20Collection%202019%20-%20FGVC6/iMet%20-%20Keras%20pretrained%20model%20as%20feature%20extractor.ipynb)
+* **Keywords**(Python, Deep Learning, CNN, Transfer learning, Image, Multi-label classification)
 <img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Kaggle/iMet%20Collection%202019%20-%20FGVC6/iMet%20Collection%202019%20-%20FGVC6.png" width="600" height="150">
 
  ---
