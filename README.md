@@ -123,3 +123,8 @@ This is a repository of the projects I worked on or currently working on. It is 
  
  #### Data Lit | School of AI [[Course home page](https://www.theschool.ai/courses/data-lit/)]
 <img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Courses/Data%20Lit/Data%20lit.png" width="250" height="150">
+
+ ---
+ 
+ #### TensorFlow: From Basics to Mastery
+<img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Courses/TensorFlow%3A%20From%20Basics%20to%20Mastery/TensorFlow%20From%20Basics%20to%20Mastery.jpg" width="250" height="150">
