@@ -10,7 +10,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 
 
 #### Instant Gratification
-* Instant Gratification - Deep Learning. [[link]]()
+* Instant Gratification - Deep Learning. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Instant%20Gratification/Instant%20Gratification%20-%20Deep%20Learning.ipynb)
 * **Keywords**(Python, EDA, Deep Learning, Classification)
 <img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Kaggle/Instant%20Gratification/banner.png" width="600" height="150">
 
