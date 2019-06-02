@@ -124,6 +124,7 @@ This is a repository of the projects I worked on or currently working on. It is 
  #### Advanced Machine Learning with TensorFlow on Google Cloud Platform [[Specialization home page](https://www.coursera.org/specializations/advanced-machine-learning-tensorflow-gcp)]
  * End-to-End Machine Learning with TensorFlow on GCP. [[Course home page](https://www.coursera.org/learn/end-to-end-ml-tensorflow-gcp)]
  * Production Machine Learning Systems. [[Course home page](https://www.coursera.org/learn/gcp-production-ml-systems)]
+ * Image Understanding with TensorFlow on GCP. [[Course home page](https://www.coursera.org/learn/image-understanding-tensorflow-gcp)]
  * Recommendation Systems with TensorFlow on GCP. [[Course home page](https://www.coursera.org/learn/recommendation-models-gcp)]
 <img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Courses/Advanced%20Machine%20Learning%20with%20TensorFlow%20on%20Google%20Cloud%20Platform/Advanced%20Machine%20Learning%20with%20TensorFlow%20on%20Google%20Cloud%20Platform.jpg" width="250" height="150">
 
