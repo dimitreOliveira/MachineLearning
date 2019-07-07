@@ -9,11 +9,10 @@ This is a repository of the projects I worked on or currently working on. It is 
 ###  Kaggle kernels
 
 
-#### Instant Gratification
-* Instant Gratification - Deep Learning. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Instant%20Gratification/Instant%20Gratification%20-%20Deep%20Learning.ipynb)
-* Ensembling and evaluating Magic models. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Instant%20Gratification/Ensembling%20and%20evaluating%20Magic%20models.ipynb)
-* **Keywords**(Python, EDA, Deep Learning, Emsembling, Classification)
-<img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Kaggle/Instant%20Gratification/banner.png" width="600" height="150">
+#### APTOS 2019 Blindness Detection
+* APTOS Blindness Detection - EDA and Keras ResNet50. [[link]]()
+* **Keywords**(Python, Keras, EDA, Deep Learning, Image, Multi-class, Transfer learning, Health care, Classification)
+<img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Kaggle/APTOS%202019%20Blindness%20Detection/banner.png" width="600" height="150">
 
  ---
  
@@ -24,14 +23,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 
  ---
 
-#### KaggleCareerCon2019 [[Link for the complete project repository]](https://github.com/dimitreOliveira/KaggleCareerCon2019)
-* Deep Learning Helping Navigate Robots. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/KaggleCareerCon2019/Deep%20Learning%20Helping%20Navigate%20Robots.ipynb)
-* **Keywords**(Python, EDA, Deep Learning, MLP, Time-series, Multi-class classification)
-<img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Kaggle/KaggleCareerCon2019/banner.png" width="300" height="150">
-
- ---
-
-#### iMet Collection 2019 - FGVC6 [[Link for the complete project repository]](https://github.com/dimitreOliveira/iMet-Collection-2019-FGVC6)
+#### iMet Collection 2019 - FGVC6 [[Link for the complete project repository](https://github.com/dimitreOliveira/iMet-Collection-2019-FGVC6)]
 * iMet Collection 2019 - EDA & Keras. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/iMet%20Collection%202019%20-%20FGVC6/iMet%20Collection%202019%20-%20EDA%20%26%20Keras.ipynb)
 * iMet - Keras pretrained model as feature extractor. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/iMet%20Collection%202019%20-%20FGVC6/iMet%20-%20Keras%20pretrained%20model%20as%20feature%20extractor.ipynb)
 * **Keywords**(Python, Deep Learning, CNN, Transfer learning, Image, Multi-label classification)
@@ -44,6 +36,21 @@ This is a repository of the projects I worked on or currently working on. It is 
 * EDA, data cleaning and feature visualization part 2. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Microsoft%20Malware%20Prediction/Malware%20Detection%20-%20Extended%20EDA.ipynb)
 * **Keywords**(Python, LGBM, EDA, classification)
 <img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Kaggle/Microsoft%20Malware%20Prediction/banner.png" width="600" height="150">
+
+ ---
+
+#### Instant Gratification
+* Instant Gratification - Deep Learning. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Instant%20Gratification/Instant%20Gratification%20-%20Deep%20Learning.ipynb)
+* Ensembling and evaluating Magic models. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Instant%20Gratification/Ensembling%20and%20evaluating%20Magic%20models.ipynb)
+* **Keywords**(Python, EDA, Deep Learning, Emsembling, Classification)
+<img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Kaggle/Instant%20Gratification/banner.png" width="600" height="150">
+
+ ---
+
+#### KaggleCareerCon2019 [[Link for the complete project repository](https://github.com/dimitreOliveira/KaggleCareerCon2019)]
+* Deep Learning Helping Navigate Robots. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/KaggleCareerCon2019/Deep%20Learning%20Helping%20Navigate%20Robots.ipynb)
+* **Keywords**(Python, EDA, Deep Learning, MLP, Time-series, Multi-class classification)
+<img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Kaggle/KaggleCareerCon2019/banner.png" width="300" height="150">
 
  ---
  
