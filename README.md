@@ -16,7 +16,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 
  ---
  
-#### Jigsaw Unintended Bias in Toxicity Classification
+#### Jigsaw Unintended Bias in Toxicity Classification [[Link for the complete project repository](https://github.com/dimitreOliveira/Jigsaw-UnintendedBiasInToxicityClassification)]
 * Toxicity Bias - extensive EDA and Bi LSTM. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Jigsaw%20Unintended%20Bias%20in%20Toxicity%20Classification/Toxicity%20Bias%20-%20extensive%20EDA%20and%20Bi%20LSTM.ipynb)
 * **Keywords**(Python, EDA, Deep Learning, Bidirectional GRU, Sequence, NLP, Classification)
 <img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Kaggle/Jigsaw%20Unintended%20Bias%20in%20Toxicity%20Classification/banner.png" width="600" height="150">
@@ -39,7 +39,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 
  ---
 
-#### Instant Gratification
+#### Instant Gratification [[Link for the complete project repository](https://github.com/dimitreOliveira/InstantGratification)]
 * Instant Gratification - Deep Learning. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Instant%20Gratification/Instant%20Gratification%20-%20Deep%20Learning.ipynb)
 * Ensembling and evaluating Magic models. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Instant%20Gratification/Ensembling%20and%20evaluating%20Magic%20models.ipynb)
 * **Keywords**(Python, EDA, Deep Learning, Emsembling, Classification)
