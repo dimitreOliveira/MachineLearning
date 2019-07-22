@@ -144,5 +144,8 @@ This is a repository of the projects I worked on or currently working on. It is 
 
  ---
  
- #### TensorFlow: From Basics to Mastery
-<img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Courses/TensorFlow%3A%20From%20Basics%20to%20Mastery/TensorFlow%20From%20Basics%20to%20Mastery.jpg" width="250" height="150">
+ #### TensorFlow in Practice [[Course home page](https://www.coursera.org/specializations/tensorflow-in-practice)]
+- Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning [[Course home page](https://www.coursera.org/learn/introduction-tensorflow)]
+- Convolutional Neural Networks in TensorFlow [[Course home page](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow)]
+- Natural Language Processing in TensorFlow [[Course home page](https://www.coursera.org/learn/natural-language-processing-tensorflow)]
+<img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Courses/TensorFlow%20in%20Practice/TensorFlow%20in%20Practice.jpg" width="250" height="150">
