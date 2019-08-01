@@ -11,7 +11,8 @@ This is a repository of the projects I worked on or currently working on. It is 
 
 #### APTOS 2019 Blindness Detection
 * APTOS Blindness Detection - EDA and Keras ResNet50. [[link]]()
-* **Keywords**(Python, Keras, EDA, Deep Learning, Image, Multi-class, Transfer learning, Health care, Classification)
+* Diabetic retinopathy - SHAP model explainability. [[link]]()
+* **Keywords**(Python, Keras, SHAP, Model explainability, EDA, Deep Learning, Image, Multi-class, Transfer learning, Health care, Classification)
 <img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Kaggle/APTOS%202019%20Blindness%20Detection/banner.png" width="600" height="150">
 
  ---
