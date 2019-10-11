@@ -1,18 +1,19 @@
 # Machine learning Portfolio
- 
+
 This is a repository of the projects I worked on or currently working on. It is updated regularly. I also have the Jupyter Notebook version of some of my Kaggle kernels here.
 
-###### [My Kaggle profile](https://www.kaggle.com/dimitreoliveira) 
- 
+###### [My Kaggle profile](https://www.kaggle.com/dimitreoliveira)
+
 ## Projects:
- 
+
 ###  Kaggle kernels
 
 
 #### APTOS 2019 Blindness Detection
 * Understanding Clouds - EDA and Keras U-Net. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Understanding%20Clouds%20from%20Satellite%20Images/Understanding%20Clouds%20-%20EDA%20and%20Keras%20U-Net.ipynb)
 * Cloud Segmentation with utility scripts and Keras. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Understanding%20Clouds%20from%20Satellite%20Images/Cloud%20Segmentation%20with%20utility%20scripts%20and%20Keras.ipynb)
-* **Keywords**(Python, Keras, EDA, Deep Learning, Transfer learning, U-Net, Image segmentation)
+* cloud images segmentation utillity script. [[link]](https://www.kaggle.com/dimitreoliveira/cloud-images-segmentation-utillity-script)
+* **Keywords**(Python, Script, Keras, EDA, Deep Learning, Transfer learning, U-Net, Image segmentation)
 <img src="https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Understanding%20Clouds%20from%20Satellite%20Images/banner.png" width="600" height="150">
 
  ---
@@ -25,7 +26,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 <img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Kaggle/APTOS%202019%20Blindness%20Detection/banner.png" width="600" height="150">
 
  ---
- 
+
 #### Jigsaw Unintended Bias in Toxicity Classification [[Link for the complete project repository](https://github.com/dimitreOliveira/Jigsaw-UnintendedBiasInToxicityClassification)]
 * Toxicity Bias - extensive EDA and Bi LSTM. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Jigsaw%20Unintended%20Bias%20in%20Toxicity%20Classification/Toxicity%20Bias%20-%20extensive%20EDA%20and%20Bi%20LSTM.ipynb)
 * **Keywords**(Python, EDA, Deep Learning, Bidirectional GRU, Sequence, NLP, Classification)
@@ -63,7 +64,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 <img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Kaggle/KaggleCareerCon2019/banner.png" width="300" height="150">
 
  ---
- 
+
  #### Google Analytics Customer Revenue Prediction [[Link for the complete project repository](https://github.com/dimitreOliveira/GoogleAnalyticsCustomerRevenuePrediction)]
 * EDA, feature engineering and selection, Keras deep learning revenue prediction.
 * EDA, feature engineering and selection, LGBM revenue prediction.
@@ -71,7 +72,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 <img src="Kaggle/Google%20Analytics%20Customer%20Revenue%20Prediction/banner.jpg" width="600" height="150">
 
  ---
- 
+
  #### New York City Taxi Fare Prediction [[Link for the complete project repository](https://github.com/dimitreOliveira/NewYorkCityTaxiFare)]
 * Keras MLP Regression.
 * Tensorflow (estimator API) MLP Regression (end-to-end tensorflow project).
@@ -79,7 +80,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 <img src="Kaggle/New%20York%20City%20Taxi%20Fare%20Prediction/banner.jpg" width="600" height="150">
 
  ---
- 
+
  #### Predict Future Sales
 * Model stacking (catboost, random forest and knn) time-series forecasting regression.
 * MLP using features encoded by a LSTM autoencoder and LSTM model time-series forecasting regression.
@@ -87,7 +88,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 <img src="Kaggle/Predict%20Future%20Sales/banner.png" width="600" height="150">
 
  ---
- 
+
  #### Store Item Demand Forecasting Challenge [[Link for the complete project repository](https://github.com/dimitreOliveira/StoreItemDemand)]
 * Spark used to process the data and Keras deep learning recurrent neural networks for time series regression. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Store%20Item%20Demand%20Forecasting%20Challenge/Spark%20and%20deep%20learning%20rnn%20(keras%20%26%20databricks).ipynb)
 * MLP, CNN, LSTM, CNN-LSTM models and framing of time-series problem for forecasting regression. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Store%20Item%20Demand%20Forecasting%20Challenge/Deep%20Learning%20for%20Time%20Series%20Forecasting.ipynb)
@@ -95,7 +96,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 <img src="Kaggle/Store%20Item%20Demand%20Forecasting%20Challenge/banner.jpg" width="600" height="150">
 
  ---
- 
+
  #### Titanic: Machine Learning from Disaster [[Link for the complete project repository](https://github.com/dimitreOliveira/titanicDeepLearning)]
 * Naive Bayes classification [didactic code]. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Titanic%20Machine%20Learning%20from%20Disaster/Naive%20Bayes%20Probabilistic%20ML%20-%20Titanic%20survival.ipynb)
 * Tensorflow (core API) MLP classification. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Titanic%20Machine%20Learning%20from%20Disaster/Titanic%20-%20Deep%20Learning%20aproach%20(tensorflow).ipynb)
@@ -104,7 +105,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 <img src="Kaggle/Titanic%20Machine%20Learning%20from%20Disaster/banner.jpg" width="600" height="150">
 
  ---
- 
+
  #### Quick, Draw! Doodle Recognition Challenge
 * Keras deep learning CNN classification.
 * Clean and pre process large csv files.
@@ -114,14 +115,14 @@ This is a repository of the projects I worked on or currently working on. It is 
 <img src="Kaggle/Quick%2C%20Draw!%20Doodle%20Recognition%20Challenge/banner.jpg" width="600" height="150">
 
  ---
- 
+
 #### Digit Recognizer
 * Deep learning CNN for image classification. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Digit%20Recognizer/Simple%20Keras%20and%20deep%20learning%20digit%20recognizer.ipynb)
 * **Keywords**(Python, Keras, Deep learning, CNN, Image classification)
 <img src="Kaggle/Digit%20Recognizer/banner.png" width="600" height="150">
 
  ---
- 
+
  #### House Prices: Advanced Regression Techniques [[Link for the complete project repository](https://github.com/dimitreOliveira/HousePrices)]
 * EDA, feature correlation, selection, engineering and visualization. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/House%20Prices%20Advanced%20Regression%20Techniques/HousePrices%20EDA.Rmd)
 * Tensorflow (core API) MLP Regression. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/House%20Prices%20Advanced%20Regression%20Techniques/House%20Prices%20-%20Deep%20Learning%20aproach%20(tensorflow).ipynb)
@@ -138,7 +139,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 <img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Courses/Advanced%20Machine%20Learning/Advanced%20Machine%20Learning.png" width="250" height="150">
 
  ---
- 
+
  #### Advanced Machine Learning with TensorFlow on Google Cloud Platform [[Specialization home page](https://www.coursera.org/specializations/advanced-machine-learning-tensorflow-gcp)]
  * End-to-End Machine Learning with TensorFlow on GCP. [[Course home page](https://www.coursera.org/learn/end-to-end-ml-tensorflow-gcp)]
  * Production Machine Learning Systems. [[Course home page](https://www.coursera.org/learn/gcp-production-ml-systems)]
@@ -148,12 +149,12 @@ This is a repository of the projects I worked on or currently working on. It is 
 <img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Courses/Advanced%20Machine%20Learning%20with%20TensorFlow%20on%20Google%20Cloud%20Platform/Advanced%20Machine%20Learning%20with%20TensorFlow%20on%20Google%20Cloud%20Platform.jpg" width="250" height="150">
 
  ---
- 
+
  #### Data Lit | School of AI [[Course home page](https://www.theschool.ai/courses/data-lit/)]
 <img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Courses/Data%20Lit/Data%20lit.png" width="250" height="150">
 
  ---
- 
+
  #### TensorFlow in Practice [[Course home page](https://www.coursera.org/specializations/tensorflow-in-practice)]
 - Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning [[Course home page](https://www.coursera.org/learn/introduction-tensorflow)]
 - Convolutional Neural Networks in TensorFlow [[Course home page](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow)]
