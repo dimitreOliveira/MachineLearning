@@ -9,7 +9,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 ###  Kaggle kernels
 
 
-#### APTOS 2019 Blindness Detection
+#### Understanding Clouds from Satellite Images
 * Understanding Clouds - EDA and Keras U-Net. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Understanding%20Clouds%20from%20Satellite%20Images/Understanding%20Clouds%20-%20EDA%20and%20Keras%20U-Net.ipynb)
 * Cloud Segmentation with utility scripts and Keras. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Understanding%20Clouds%20from%20Satellite%20Images/Cloud%20Segmentation%20with%20utility%20scripts%20and%20Keras.ipynb)
 * cloud images segmentation utillity script. [[link]](https://www.kaggle.com/dimitreoliveira/cloud-images-segmentation-utillity-script)
