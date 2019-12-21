@@ -9,6 +9,15 @@ This is a repository of the projects I worked on or currently working on. It is 
 ###  Kaggle kernels
 
 
+#### TensorFlow 2.0 Question Answering
+* Using TF 2.0 w/ Bert on NQ - (translated to TF2.0). [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/TensorFlow%202.0%20Question%20Answering/Using%20TF%202.0%20w%20Bert%20on%20NQ%20-%20(translated%20to%20TF2.0).ipynb)
+* TF2.0 Baseline w/ BERT - (translated to TF2.0). [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/TensorFlow%202.0%20Question%20Answering/TF2.0%20Baseline%20w%20BERT%20-%20(translated%20to%20TF2.0).py)
+* **Keywords**(Python, NLP, Deep learning, BERT, transfer learning, Natural question, Open question)
+<img src="https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/TensorFlow%202.0%20Question%20Answering/banner.png" width="600" height="150">
+
+ ---
+
+
 #### Understanding Clouds from Satellite Images
 * Understanding Clouds - EDA and Keras U-Net. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Understanding%20Clouds%20from%20Satellite%20Images/Understanding%20Clouds%20-%20EDA%20and%20Keras%20U-Net.ipynb)
 * Cloud Segmentation with utility scripts and Keras. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Understanding%20Clouds%20from%20Satellite%20Images/Cloud%20Segmentation%20with%20utility%20scripts%20and%20Keras.ipynb)
