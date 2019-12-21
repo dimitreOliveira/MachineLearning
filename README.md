@@ -22,6 +22,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 #### APTOS 2019 Blindness Detection
 * APTOS Blindness Detection - EDA and Keras ResNet50. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/APTOS%202019%20Blindness%20Detection/APTOS%20Blindness%20Detection%20-%20EDA%20and%20Keras%20ResNet50.ipynb)
 * Diabetic retinopathy - SHAP model explainability. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/APTOS%202019%20Blindness%20Detection/Diabetic%20retinopathy%20-%20SHAP%20model%20explainability.ipynb)
+* (175th place) 5-Fold EfficientNetB5. [[link]](https://www.kaggle.com/dimitreoliveira/175th-place-5-fold-efficientnetb5)
 * **Keywords**(Python, Keras, SHAP, Model explainability, EDA, Deep Learning, Image, Multi-class, Transfer learning, Health care, Classification)
 <img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Kaggle/APTOS%202019%20Blindness%20Detection/banner.png" width="600" height="150">
 
