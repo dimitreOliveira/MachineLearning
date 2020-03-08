@@ -9,6 +9,14 @@ This is a repository of the projects I worked on or currently working on. It is 
 ###  Kaggle kernels
 
 
+#### Flower Classification with TPUs
+* Flower Classification with TPUs - EDA and Baseline. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Flower%20Classification%20with%20TPUs/Flower%20Classification%20with%20TPUs%20-%20EDA%20and%20Baseline.ipynb)
+* **Keywords**(Python, Image, Deep learning, DenseNet, Transfer Learning, EDA, TPU, Tensorflow)
+<img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Kaggle/Flower%20Classification%20with%20TPUs/banner.png" width="600" height="150">
+
+ ---
+
+
 #### TensorFlow 2.0 Question Answering
 * Google QUEST - EDA and USE Baseline. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Google%20QUEST%20Q%26A%20Labeling/Google%20QUEST%20-%20EDA%20and%20USE%20Baseline.ipynb)
 * **Keywords**(Python, NLP, Deep learning, Universal sentence encoder, transfer learning, EDA)
