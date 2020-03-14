@@ -11,7 +11,8 @@ This is a repository of the projects I worked on or currently working on. It is 
 
 #### Flower Classification with TPUs
 * Flower Classification with TPUs - EDA and Baseline. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Flower%20Classification%20with%20TPUs/Flower%20Classification%20with%20TPUs%20-%20EDA%20and%20Baseline.ipynb)
-* **Keywords**(Python, Image, Deep learning, DenseNet, Transfer Learning, EDA, TPU, Tensorflow)
+* Flower with TPUs - Advanced augmentation. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Flower%20Classification%20with%20TPUs/Flower%20with%20TPUs%20-%20Advanced%20augmentation.ipynb)
+* **Keywords**(Python, Image, Deep learning, DenseNet, EfficientNet, Transfer Learning, Data augmentation, EDA, TPU, Tensorflow)
 <img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Kaggle/Flower%20Classification%20with%20TPUs/banner.png" width="600" height="150">
 
  ---
