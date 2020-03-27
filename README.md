@@ -10,9 +10,11 @@ This is a repository of the projects I worked on or currently working on. It is 
 
 
 #### Flower Classification with TPUs
-* Flower Classification with TPUs - EDA and Baseline. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Flower%20Classification%20with%20TPUs/Flower%20Classification%20with%20TPUs%20-%20EDA%20and%20Baseline.ipynb)
-* Flower with TPUs - Advanced augmentation. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Flower%20Classification%20with%20TPUs/Flower%20with%20TPUs%20-%20Advanced%20augmentation.ipynb)
-* **Keywords**(Python, Image, Deep learning, DenseNet, EfficientNet, Transfer Learning, Data augmentation, EDA, TPU, Tensorflow)
+* Flower Classification with TPUs - EDA and Baseline. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Flower%20Classification%20with%20TPUs/flower-classification-with-tpus-eda-and-baseline.ipynb)
+* Flower with TPUs - Advanced augmentation. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Flower%20Classification%20with%20TPUs/flower-with-tpus-advanced-augmentation.ipynb)
+* Flower with TPUs K-Fold optimized training loops. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Flower%20Classification%20with%20TPUs/flower-with-tpus-k-fold-optimized-training-loops.ipynb)
+* Bug report unavailableerror socket closed. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Flower%20Classification%20with%20TPUs/bug-report-unavailableerror-socket-closed.ipynb)
+* **Keywords**(Python, Image, Deep learning, DenseNet, EfficientNet, Transfer Learning, Data augmentation, K-Fold, EDA, TPU, Tensorflow)
 <img src="https://raw.githubusercontent.com/dimitreOliveira/MachineLearning/master/Kaggle/Flower%20Classification%20with%20TPUs/banner.png" width="600" height="150">
 
  ---
