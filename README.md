@@ -37,7 +37,7 @@ This is a repository of the projects I worked on or currently working on. It is 
  ---
 
 
-#### TensorFlow 2.0 Question Answering
+#### TensorFlow 2.0 Question Answering [[Link for the complete project repository](https://github.com/dimitreOliveira/Google-QUEST-QA-Labeling)]
 * Google QUEST - EDA and USE Baseline. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Google%20QUEST%20Q%26A%20Labeling/Google%20QUEST%20-%20EDA%20and%20USE%20Baseline.ipynb)
 * **Keywords**(NLP, Deep learning, Universal sentence encoder, transfer learning, EDA)
 <img src="https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Google%20QUEST%20Q%26A%20Labeling/banner.png" width="600" height="150">
@@ -54,7 +54,7 @@ This is a repository of the projects I worked on or currently working on. It is 
  ---
 
 
-#### Understanding Clouds from Satellite Images
+#### Understanding Clouds from Satellite Images [[Link for the complete project repository](https://github.com/dimitreOliveira/UnderstandingCloudsFromSatelliteImages)]
 * Understanding Clouds - EDA and Keras U-Net. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Understanding%20Clouds%20from%20Satellite%20Images/Understanding%20Clouds%20-%20EDA%20and%20Keras%20U-Net.ipynb)
 * Cloud Segmentation with utility scripts and Keras. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Understanding%20Clouds%20from%20Satellite%20Images/Cloud%20Segmentation%20with%20utility%20scripts%20and%20Keras.ipynb)
 * cloud images segmentation utillity script. [[link]](https://www.kaggle.com/dimitreoliveira/cloud-images-segmentation-utillity-script)
@@ -64,7 +64,7 @@ This is a repository of the projects I worked on or currently working on. It is 
  ---
 
 
-#### APTOS 2019 Blindness Detection
+#### APTOS 2019 Blindness Detection [[Link for the complete project repository](https://github.com/dimitreOliveira/APTOS2019BlindnessDetection)]
 * APTOS Blindness Detection - EDA and Keras ResNet50. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/APTOS%202019%20Blindness%20Detection/APTOS%20Blindness%20Detection%20-%20EDA%20and%20Keras%20ResNet50.ipynb)
 * Diabetic retinopathy - SHAP model explainability. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/APTOS%202019%20Blindness%20Detection/Diabetic%20retinopathy%20-%20SHAP%20model%20explainability.ipynb)
 * (175th place) 5-Fold EfficientNetB5. [[link]](https://www.kaggle.com/dimitreoliveira/175th-place-5-fold-efficientnetb5)
