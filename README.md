@@ -11,7 +11,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 
 #### Tweet Sentiment Extraction
 * Tweet Sentiment Extraction - EDA and baseline. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Tweet%20Sentiment%20Extraction/Tweet%20Sentiment%20Extraction%20-%20EDA%20and%20baseline.ipynb)
-* **Keywords**(NLP, Deep learning, Transformer, transfer learning, TPU, Classification)
+* **Keywords**(NLP, Deep learning, Transformer, Transfer learning, Question answering)
 <img src="https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Tweet%20Sentiment%20Extraction/banner.png" width="600" height="150">
 
  ---
@@ -20,7 +20,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 #### Jigsaw Multilingual Toxic Comment Classification
 * Jigsaw - TPU optimized training loops. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Jigsaw%20Multilingual%20Toxic%20Comment%20Classification/Jigsaw%20-%20TPU%20optimized%20training%20loops.ipynb)
 * Jigsaw Classification - DistilBERT with TPU and TF. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Jigsaw%20Multilingual%20Toxic%20Comment%20Classification/Jigsaw%20Classification%20-%20DistilBERT%20with%20TPU%20and%20TF.ipynb)
-* **Keywords**(NLP, Deep learning, Transformer, transfer learning, TPU, Classification)
+* **Keywords**(NLP, Deep learning, Transformer, Transfer learning, TPU, Classification)
 <img src="https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Jigsaw%20Multilingual%20Toxic%20Comment%20Classification/banner.png" width="600" height="150">
 
  ---
