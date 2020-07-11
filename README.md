@@ -9,6 +9,15 @@ This is a repository of the projects I worked on or currently working on. It is 
 ###  Kaggle kernels
 
 
+#### SIIM-ISIC Melanoma Classification
+* Melanoma Classification - SHAP model explained. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/SIIM-ISIC%20Melanoma%20Classification/melanoma-classification-shap-model-explained.ipynb)
+* Melanoma Classification - Augmentations EDA. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/SIIM-ISIC%20Melanoma%20Classification/melanoma-classification-augmentations-eda.ipynb)
+* **Keywords**(Computer vision, Deep learning, CNN, Transfer learning, Medical images, Melanoma detection, Object classification)
+<img src="https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/SIIM-ISIC%20Melanoma%20Classification/banner.png" width="600" height="150">
+
+ ---
+
+
 #### Tweet Sentiment Extraction
 * Tweet Sentiment Extraction - EDA and baseline. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Tweet%20Sentiment%20Extraction/Tweet%20Sentiment%20Extraction%20-%20EDA%20and%20baseline.ipynb)
 * **Keywords**(NLP, Deep learning, Transformer, Transfer learning, Question answering)
