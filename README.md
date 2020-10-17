@@ -9,7 +9,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 ###  Kaggle kernels
 
 
-#### SIIM-ISIC Melanoma Classification
+#### SIIM-ISIC Melanoma Classification [[Link for the complete project repository](https://github.com/dimitreOliveira/melanoma-classification)]
 * Melanoma Classification - SHAP model explained. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/SIIM-ISIC%20Melanoma%20Classification/melanoma-classification-shap-model-explained.ipynb)
 * Melanoma Classification - Augmentations EDA. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/SIIM-ISIC%20Melanoma%20Classification/melanoma-classification-augmentations-eda.ipynb)
 * **Keywords**(Computer vision, Deep learning, CNN, Transfer learning, Medical images, Melanoma detection, Object classification)
