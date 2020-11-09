@@ -4,6 +4,13 @@ This is a repository of the projects I worked on or currently working on. It is 
 
 ###### [My Kaggle profile](https://www.kaggle.com/dimitreoliveira)
 
+## Presentations:
+
+#### Kaggle Days Delhi - Using TPUs for Computer Vision
+- [Video](https://www.youtube.com/watch?v=wYeYhlB4KX8)
+- [Slides](https://github.com/dimitreOliveira/MachineLearning/blob/master/Other/Kaggle%20Days%20Delhi%20-%20Using%20TPUs%20for%20Computer%20Vision.pptx)
+
+
 ## Projects:
 
 ###  Kaggle kernels
