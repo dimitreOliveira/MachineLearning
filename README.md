@@ -21,6 +21,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 * Improving CycleGAN - Monet paintings. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/I%E2%80%99m%20Something%20of%20a%20Painter%20Myself/Improving%20CycleGAN%20-%20Monet%20paintings.ipynb)
 * Monet paintings (Berkeley) - TFRecords 256x256. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/I%E2%80%99m%20Something%20of%20a%20Painter%20Myself/Monet%20paintings%20(Berkeley)%20-%20TFRecords%20256x256.ipynb)
 * Monet paintings - TFRecords 256x256. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/I%E2%80%99m%20Something%20of%20a%20Painter%20Myself/Monet%20paintings%20-%20TFRecords%20256x256.ipynb)
+* **Keywords**(Computer vision, Deep learning, GAN, CycleGAN, Art, Paintings)
 <img src="https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/I%E2%80%99m%20Something%20of%20a%20Painter%20Myself/banner.png" width="600" height="150">
 
 
