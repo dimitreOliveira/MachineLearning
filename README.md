@@ -16,6 +16,10 @@ This is a repository of the projects I worked on or currently working on. It is 
 ###  Kaggle kernels
 
 
+#### I’m Something of a Painter Myself
+<img src="https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/I%E2%80%99m%20Something%20of%20a%20Painter%20Myself/banner.png" width="600" height="150">
+
+
 #### SIIM-ISIC Melanoma Classification [[Link for the complete project repository](https://github.com/dimitreOliveira/melanoma-classification)]
 * Melanoma Classification - SHAP model explained. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/SIIM-ISIC%20Melanoma%20Classification/melanoma-classification-shap-model-explained.ipynb)
 * Melanoma Classification - Augmentations EDA. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/SIIM-ISIC%20Melanoma%20Classification/melanoma-classification-augmentations-eda.ipynb)
