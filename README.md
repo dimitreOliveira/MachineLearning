@@ -16,6 +16,19 @@ This is a repository of the projects I worked on or currently working on. It is 
 ###  Kaggle kernels
 
 
+#### Cassava Leaf Disease Classification
+* Cassava Leaf Disease - TPU Tensorflow - Training [[link]](aaaaaaaaaaaa)
+* Cassava Leaf Disease - TPU Tensorflow - Inference [[link]](aaaaaaaaaaaa)
+* Cassava Leaf Disease - Training with TPU v2 Pods [[link]](aaaaaaaaaaaa)
+* Cassava Leaf Disease - TPU v2 Pods - Inference [[link]](aaaaaaaaaaaa)
+* Cassava Leaf - Supervised Contrastive Learning [[link]](aaaaaaaaaaaa)
+* Cassava-Supervised Contrastive Learning-Inference [[link]](aaaaaaaaaaaa)
+* Cassava Leaf Disease - CycleGAN data augmentation [[link]](aaaaaaaaaaaa)
+* Cassava Leaf Disease-Stratified TFRecords 256x256 [[link]](aaaaaaaaaaaa)
+* **Keywords**(Computer vision, Deep learning, Cassava, GPU, TPU, Supervised Contrastive Learning, GAN, CycleGAN, TFRecord)
+<img src="https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Cassava%20Leaf%20Disease%20Classification/banner.png?raw=true" width="600" height="150">
+
+
 #### Rainforest Connection Species Audio Detection
 * Rainforest-Audio classification Tensorflow starter. [[link]](aaaaaaaaaaaa)
 * Rainforest-Audio classification TF Improved. [[link]](aaaaaaaaaaaa)
