@@ -16,6 +16,13 @@ This is a repository of the projects I worked on or currently working on. It is 
 ###  Kaggle kernels
 
 
+#### Rainforest Connection Species Audio Detection
+* Rainforest-Audio classification Tensorflow starter. [[link]](aaaaaaaaaaaa)
+* Rainforest-Audio classification TF Improved. [[link]](aaaaaaaaaaaa)
+* **Keywords**(Audio data, Computer vision, Deep learning, Spectrogram)
+<img src="https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/Rainforest%20Connection%20Species%20Audio%20Detection/banner.png?raw=true" width="600" height="150">
+
+
 #### I’m Something of a Painter Myself
 * Introduction to CycleGAN - Monet paintings. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/I%E2%80%99m%20Something%20of%20a%20Painter%20Myself/Introduction%20to%20CycleGAN%20-%20Monet%20paintings.ipynb)
 * Improving CycleGAN - Monet paintings. [[link]](https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/I%E2%80%99m%20Something%20of%20a%20Painter%20Myself/Improving%20CycleGAN%20-%20Monet%20paintings.ipynb)
