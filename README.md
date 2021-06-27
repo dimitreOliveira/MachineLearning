@@ -10,7 +10,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 ###  Kaggle kernels
 
 
-#### Rainforest Connection Species Audio Detection
+#### CommonLit Readability Prize
 * CommonLit Readability - EDA & RoBERTa TF baseline [[link]](https://www.kaggle.com/dimitreoliveira/commonlit-readability-eda-roberta-tf-baseline)
 * **Keywords**(Text data, Deep learning, Transformers)
 <img src="https://github.com/dimitreOliveira/MachineLearning/blob/master/Kaggle/CommonLit%20Readability%20Prize/banner.png?raw=true" width="600" height="150">
